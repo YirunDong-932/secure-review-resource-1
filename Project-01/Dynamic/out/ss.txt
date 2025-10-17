@@ -1,1 +1,3 @@
-Netid State Recv-Q Send-Q Local Address:Port Peer Address:PortProcess
+Netid State  Recv-Q Send-Q Local Address:Port Peer Address:PortProcess                                                                  
+tcp   LISTEN 0      100        127.0.0.1:8080      0.0.0.0:*    users:(("python3",pid=12,fd=7)) uid:1000 ino:195262 sk:300c cgroup:/ <->
+tcp   LISTEN 0      100            [::1]:8080         [::]:*    users:(("python3",pid=12,fd=8)) uid:1000 ino:195263 sk:300d cgroup:/ v6only:1 <->

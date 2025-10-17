@@ -1,0 +1,675 @@
+05:42:30.347809 execve("/usr/local/bin/node", ["node", "app.js"], 0x7ffdd749f2a8 /* 8 vars */) = 0
+05:42:30.348613 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+05:42:30.348738 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+05:42:30.348849 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=6631, ...}, AT_EMPTY_PATH) = 0
+05:42:30.349145 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+05:42:30.349392 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=14480, ...}, AT_EMPTY_PATH) = 0
+05:42:30.349951 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+05:42:30.350257 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=2190440, ...}, AT_EMPTY_PATH) = 0
+05:42:30.350900 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+05:42:30.351223 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=911904, ...}, AT_EMPTY_PATH) = 0
+05:42:30.351989 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+05:42:30.352267 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=125312, ...}, AT_EMPTY_PATH) = 0
+05:42:30.352946 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+05:42:30.353184 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=14480, ...}, AT_EMPTY_PATH) = 0
+05:42:30.354039 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+05:42:30.354317 newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=1926232, ...}, AT_EMPTY_PATH) = 0
+05:42:30.372764 openat(AT_FDCWD, "/etc/ssl/openssl.cnf", O_RDONLY) = 3
+05:42:30.372934 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=12332, ...}, AT_EMPTY_PATH) = 0
+05:42:30.377906 clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7783b8fea990, parent_tid=0x7783b8fea990, exit_signal=0, stack=0x7783b87ea000, stack_size=0x7ffe80, tls=0x7783b8fea6c0}, 88) = -1 ENOSYS (Function not implemented)
+05:42:30.378033 clone(child_stack=0x7783b8fe9e70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[14], tls=0x7783b8fea6c0, child_tidptr=0x7783b8fea990) = 14
+05:42:30.380101 clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7783b3fff990, parent_tid=0x7783b3fff990, exit_signal=0, stack=0x7783b37ff000, stack_size=0x7ffe80, tls=0x7783b3fff6c0}, 88) = -1 ENOSYS (Function not implemented)
+05:42:30.380219 clone(child_stack=0x7783b3ffee70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[15], tls=0x7783b3fff6c0, child_tidptr=0x7783b3fff990) = 15
+05:42:30.380915 clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7783b37fe990, parent_tid=0x7783b37fe990, exit_signal=0, stack=0x7783b2ffe000, stack_size=0x7ffe80, tls=0x7783b37fe6c0}, 88) = -1 ENOSYS (Function not implemented)
+05:42:30.381041 clone(child_stack=0x7783b37fde70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[16], tls=0x7783b37fe6c0, child_tidptr=0x7783b37fe990) = 16
+05:42:30.382025 clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7783b2ffd990, parent_tid=0x7783b2ffd990, exit_signal=0, stack=0x7783b27fd000, stack_size=0x7ffe80, tls=0x7783b2ffd6c0}, 88) = -1 ENOSYS (Function not implemented)
+05:42:30.382145 clone(child_stack=0x7783b2ffce70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[17], tls=0x7783b2ffd6c0, child_tidptr=0x7783b2ffd990) = 17
+05:42:30.382849 clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7783b27fc990, parent_tid=0x7783b27fc990, exit_signal=0, stack=0x7783b1ffc000, stack_size=0x7ffe80, tls=0x7783b27fc6c0}, 88) = -1 ENOSYS (Function not implemented)
+05:42:30.382984 clone(child_stack=0x7783b27fbe70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[18], tls=0x7783b27fc6c0, child_tidptr=0x7783b27fc990) = 18
+05:42:30.386175 openat(AT_FDCWD, "/proc/self/cgroup", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.386666 openat(AT_FDCWD, "/sys/fs/cgroup//memory.max", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.387015 openat(AT_FDCWD, "/sys/fs/cgroup//memory.high", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.387466 openat(AT_FDCWD, "/proc/meminfo", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.387856 openat(AT_FDCWD, "/proc/self/maps", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.388127 newfstatat(17, "", {st_mode=S_IFREG|0444, st_size=0, ...}, AT_EMPTY_PATH) = 0
+05:42:30.391125 openat(AT_FDCWD, "/proc/self/maps", O_RDONLY) = 17
+05:42:30.391247 newfstatat(17, "", {st_mode=S_IFREG|0444, st_size=0, ...}, AT_EMPTY_PATH) = 0
+05:42:30.400287 readlink("/proc/self/exe", "/usr/local/bin/node", 8191) = 19
+05:42:30.408148 clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x7783b8748990, parent_tid=0x7783b8748990, exit_signal=0, stack=0x7783b8740000, stack_size=0x7e80, tls=0x7783b87486c0}, 88) = -1 ENOSYS (Function not implemented)
+05:42:30.408321 clone(child_stack=0x7783b8747e70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[19], tls=0x7783b87486c0, child_tidptr=0x7783b8748990) = 19
+05:42:30.411128 getcwd("/home/auditor/app", 4096) = 18
+05:42:30.415585 statx(AT_FDCWD, "/home/auditor/app/app.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=3913, ...}) = 0
+05:42:30.416069 statx(AT_FDCWD, "/home", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.416268 statx(AT_FDCWD, "/home/auditor", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.416406 statx(AT_FDCWD, "/home/auditor/app", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.416536 statx(AT_FDCWD, "/home/auditor/app/app.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=3913, ...}) = 0
+05:42:30.416812 openat(AT_FDCWD, "/home/auditor/app/package.json", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.418178 openat(AT_FDCWD, "/home/auditor/app/app.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.418921 statx(AT_FDCWD, "/home/auditor/app/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=12288, ...}) = 0
+05:42:30.419237 openat(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/websocket/package.json", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.419658 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/websocket", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.419824 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/websocket.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7ba60) = -1 ENOENT (No such file or directory)
+05:42:30.420013 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/websocket.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7ba60) = -1 ENOENT (No such file or directory)
+05:42:30.420150 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/websocket.node", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7ba60) = -1 ENOENT (No such file or directory)
+05:42:30.420666 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/websocket/index.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=7997, ...}) = 0
+05:42:30.420809 statx(AT_FDCWD, "/home/auditor/app/node_modules", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=12288, ...}) = 0
+05:42:30.420958 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.421081 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/websocket", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.421202 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/websocket/index.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=7997, ...}) = 0
+05:42:30.421409 openat(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/websocket/index.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.427973 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/websocket/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b6b0) = -1 ENOENT (No such file or directory)
+05:42:30.428100 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b6b0) = -1 ENOENT (No such file or directory)
+05:42:30.428258 openat(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin/package.json", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.428639 statx(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.428765 statx(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b5d0) = -1 ENOENT (No such file or directory)
+05:42:30.428884 statx(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b5d0) = -1 ENOENT (No such file or directory)
+05:42:30.429004 statx(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin.node", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b5d0) = -1 ENOENT (No such file or directory)
+05:42:30.429139 statx(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin/plugin.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1662, ...}) = 0
+05:42:30.429292 statx(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.429460 statx(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin/plugin.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1662, ...}) = 0
+05:42:30.429655 openat(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin/plugin.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.430170 statx(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin/lib/getPluginName", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b240) = -1 ENOENT (No such file or directory)
+05:42:30.430298 statx(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin/lib/getPluginName.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=720, ...}) = 0
+05:42:30.430442 statx(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin/lib", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.430569 statx(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin/lib/getPluginName.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=720, ...}) = 0
+05:42:30.430731 openat(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin/lib/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.430873 openat(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin/lib/getPluginName.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.431392 statx(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin/lib/toCamelCase", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b240) = -1 ENOENT (No such file or directory)
+05:42:30.431515 statx(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin/lib/toCamelCase.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=222, ...}) = 0
+05:42:30.431671 statx(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin/lib/toCamelCase.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=222, ...}) = 0
+05:42:30.431876 openat(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin/lib/toCamelCase.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.432357 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/websocket/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b6b0) = -1 ENOENT (No such file or directory)
+05:42:30.432641 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b6b0) = -1 ENOENT (No such file or directory)
+05:42:30.432847 openat(AT_FDCWD, "/home/auditor/app/node_modules/ws/package.json", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.435932 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/index.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=376, ...}) = 0
+05:42:30.436092 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.436217 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/index.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=376, ...}) = 0
+05:42:30.436408 openat(AT_FDCWD, "/home/auditor/app/node_modules/ws/index.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.436860 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.436986 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/websocket", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b240) = -1 ENOENT (No such file or directory)
+05:42:30.437108 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/websocket.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=36463, ...}) = 0
+05:42:30.437250 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.437412 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/websocket.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=36463, ...}) = 0
+05:42:30.437624 openat(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.437772 openat(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/websocket.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.439995 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.440226 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/permessage-deflate", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7ace0) = -1 ENOENT (No such file or directory)
+05:42:30.440446 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/permessage-deflate.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=14510, ...}) = 0
+05:42:30.440634 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/permessage-deflate.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=14510, ...}) = 0
+05:42:30.440842 openat(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/permessage-deflate.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.442419 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/buffer-util", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a800) = -1 ENOENT (No such file or directory)
+05:42:30.442551 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/buffer-util.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3056, ...}) = 0
+05:42:30.442695 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/buffer-util.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3056, ...}) = 0
+05:42:30.442863 openat(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/buffer-util.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.443370 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/constants", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a370) = -1 ENOENT (No such file or directory)
+05:42:30.443499 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/constants.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=479, ...}) = 0
+05:42:30.443638 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/constants.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=479, ...}) = 0
+05:42:30.443923 openat(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/constants.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.445059 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a370) = -1 ENOENT (No such file or directory)
+05:42:30.445186 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a370) = -1 ENOENT (No such file or directory)
+05:42:30.445340 openat(AT_FDCWD, "/home/auditor/app/node_modules/bufferutil/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.445534 statx(AT_FDCWD, "/home/auditor/app/node_modules/bufferutil", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a370) = -1 ENOENT (No such file or directory)
+05:42:30.445664 statx(AT_FDCWD, "/home/auditor/app/node_modules/bufferutil.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a290) = -1 ENOENT (No such file or directory)
+05:42:30.445796 statx(AT_FDCWD, "/home/auditor/app/node_modules/bufferutil.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a290) = -1 ENOENT (No such file or directory)
+05:42:30.445970 statx(AT_FDCWD, "/home/auditor/app/node_modules/bufferutil.node", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a290) = -1 ENOENT (No such file or directory)
+05:42:30.446117 statx(AT_FDCWD, "/home/auditor/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a370) = -1 ENOENT (No such file or directory)
+05:42:30.446247 statx(AT_FDCWD, "/home/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a370) = -1 ENOENT (No such file or directory)
+05:42:30.446375 statx(AT_FDCWD, "/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a370) = -1 ENOENT (No such file or directory)
+05:42:30.446512 statx(AT_FDCWD, "/home/auditor/.node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a370) = -1 ENOENT (No such file or directory)
+05:42:30.446636 statx(AT_FDCWD, "/home/auditor/.node_libraries", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a370) = -1 ENOENT (No such file or directory)
+05:42:30.446812 statx(AT_FDCWD, "/usr/local/lib/node", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a370) = -1 ENOENT (No such file or directory)
+05:42:30.450095 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/limiter", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a800) = -1 ENOENT (No such file or directory)
+05:42:30.450312 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/limiter.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1034, ...}) = 0
+05:42:30.450448 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/limiter.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1034, ...}) = 0
+05:42:30.450642 openat(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/limiter.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.451214 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/receiver", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7ace0) = -1 ENOENT (No such file or directory)
+05:42:30.451341 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/receiver.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=16460, ...}) = 0
+05:42:30.451493 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/receiver.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=16460, ...}) = 0
+05:42:30.451660 openat(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/receiver.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.453066 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/validation", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a7f0) = -1 ENOENT (No such file or directory)
+05:42:30.453258 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/validation.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3903, ...}) = 0
+05:42:30.453544 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/validation.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3903, ...}) = 0
+05:42:30.453790 openat(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/validation.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.454655 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/sender", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7ace0) = -1 ENOENT (No such file or directory)
+05:42:30.454790 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/sender.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=16711, ...}) = 0
+05:42:30.454922 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/sender.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=16711, ...}) = 0
+05:42:30.455115 openat(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/sender.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.455981 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/event-target", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7ace0) = -1 ENOENT (No such file or directory)
+05:42:30.456094 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/event-target.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=7321, ...}) = 0
+05:42:30.456328 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/event-target.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=7321, ...}) = 0
+05:42:30.456485 openat(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/event-target.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.457063 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/extension", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7ace0) = -1 ENOENT (No such file or directory)
+05:42:30.457226 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/extension.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=6183, ...}) = 0
+05:42:30.457504 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/extension.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=6183, ...}) = 0
+05:42:30.457717 openat(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/extension.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.458311 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/stream", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b240) = -1 ENOENT (No such file or directory)
+05:42:30.458436 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/stream.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4204, ...}) = 0
+05:42:30.458582 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/stream.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4204, ...}) = 0
+05:42:30.458813 openat(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/stream.js", O_RDONLY|O_CLOEXEC) = 18
+05:42:30.459658 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/websocket", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7adc0) = -1 ENOENT (No such file or directory)
+05:42:30.459819 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/websocket-server", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b240) = -1 ENOENT (No such file or directory)
+05:42:30.460004 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/websocket-server.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=16393, ...}) = 0
+05:42:30.460135 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/websocket-server.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=16393, ...}) = 0
+05:42:30.460289 openat(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/websocket-server.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.461409 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/subprotocol", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7ad80) = -1 ENOENT (No such file or directory)
+05:42:30.461596 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/subprotocol.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1498, ...}) = 0
+05:42:30.461743 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/subprotocol.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1498, ...}) = 0
+05:42:30.461901 openat(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/subprotocol.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.462758 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/receiver", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b240) = -1 ENOENT (No such file or directory)
+05:42:30.462903 statx(AT_FDCWD, "/home/auditor/app/node_modules/ws/lib/sender", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b240) = -1 ENOENT (No such file or directory)
+05:42:30.463055 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/websocket/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b6b0) = -1 ENOENT (No such file or directory)
+05:42:30.463168 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b6b0) = -1 ENOENT (No such file or directory)
+05:42:30.463290 openat(AT_FDCWD, "/home/auditor/app/node_modules/duplexify/package.json", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.463661 statx(AT_FDCWD, "/home/auditor/app/node_modules/duplexify", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.463868 statx(AT_FDCWD, "/home/auditor/app/node_modules/duplexify.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b5d0) = -1 ENOENT (No such file or directory)
+05:42:30.464008 statx(AT_FDCWD, "/home/auditor/app/node_modules/duplexify.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b5d0) = -1 ENOENT (No such file or directory)
+05:42:30.464165 statx(AT_FDCWD, "/home/auditor/app/node_modules/duplexify.node", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b5d0) = -1 ENOENT (No such file or directory)
+05:42:30.464326 statx(AT_FDCWD, "/home/auditor/app/node_modules/duplexify/index.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=5983, ...}) = 0
+05:42:30.464516 statx(AT_FDCWD, "/home/auditor/app/node_modules/duplexify", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.464646 statx(AT_FDCWD, "/home/auditor/app/node_modules/duplexify/index.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=5983, ...}) = 0
+05:42:30.464792 openat(AT_FDCWD, "/home/auditor/app/node_modules/duplexify/index.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.465360 statx(AT_FDCWD, "/home/auditor/app/node_modules/duplexify/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b230) = -1 ENOENT (No such file or directory)
+05:42:30.465516 openat(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/package.json", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.465917 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.466042 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b150) = -1 ENOENT (No such file or directory)
+05:42:30.466164 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b150) = -1 ENOENT (No such file or directory)
+05:42:30.466285 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream.node", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b150) = -1 ENOENT (No such file or directory)
+05:42:30.466411 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/readable.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=729, ...}) = 0
+05:42:30.466549 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.466677 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/readable.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=729, ...}) = 0
+05:42:30.466833 openat(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/readable.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.467318 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_readable.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=36023, ...}) = 0
+05:42:30.467459 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.467587 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_readable.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=36023, ...}) = 0
+05:42:30.467734 openat(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.467876 openat(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_readable.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.469117 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.469252 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/stream", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a910) = -1 ENOENT (No such file or directory)
+05:42:30.469405 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/stream.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=36, ...}) = 0
+05:42:30.469549 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.469693 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.473130 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/stream.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=36, ...}) = 0
+05:42:30.473454 openat(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.473586 openat(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.473727 openat(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/stream.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.474482 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/buffer_list", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a910) = -1 ENOENT (No such file or directory)
+05:42:30.474605 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/buffer_list.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=6905, ...}) = 0
+05:42:30.474738 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/buffer_list.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=6905, ...}) = 0
+05:42:30.474899 openat(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/buffer_list.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.475518 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/destroy", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a910) = -1 ENOENT (No such file or directory)
+05:42:30.475640 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/destroy.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3109, ...}) = 0
+05:42:30.475777 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/destroy.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3109, ...}) = 0
+05:42:30.475933 openat(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/destroy.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.476416 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/state", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a910) = -1 ENOENT (No such file or directory)
+05:42:30.476537 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/state.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=745, ...}) = 0
+05:42:30.476679 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/state.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=745, ...}) = 0
+05:42:30.476836 openat(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/state.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.477390 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/errors", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a490) = -1 ENOENT (No such file or directory)
+05:42:30.477514 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/errors.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3715, ...}) = 0
+05:42:30.477649 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/errors.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3715, ...}) = 0
+05:42:30.477804 openat(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/errors.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.478400 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/errors", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a910) = -1 ENOENT (No such file or directory)
+05:42:30.478553 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a910) = -1 ENOENT (No such file or directory)
+05:42:30.478701 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a910) = -1 ENOENT (No such file or directory)
+05:42:30.478926 openat(AT_FDCWD, "/home/auditor/app/node_modules/inherits/package.json", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.479368 statx(AT_FDCWD, "/home/auditor/app/node_modules/inherits", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.479501 statx(AT_FDCWD, "/home/auditor/app/node_modules/inherits.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a830) = -1 ENOENT (No such file or directory)
+05:42:30.479628 statx(AT_FDCWD, "/home/auditor/app/node_modules/inherits.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a830) = -1 ENOENT (No such file or directory)
+05:42:30.479750 statx(AT_FDCWD, "/home/auditor/app/node_modules/inherits.node", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a830) = -1 ENOENT (No such file or directory)
+05:42:30.479886 statx(AT_FDCWD, "/home/auditor/app/node_modules/inherits/inherits.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=250, ...}) = 0
+05:42:30.480022 statx(AT_FDCWD, "/home/auditor/app/node_modules/inherits", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.480525 statx(AT_FDCWD, "/home/auditor/app/node_modules/inherits/inherits.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=250, ...}) = 0
+05:42:30.480684 openat(AT_FDCWD, "/home/auditor/app/node_modules/inherits/inherits.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.483737 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_writable.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=21907, ...}) = 0
+05:42:30.483937 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_writable.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=21907, ...}) = 0
+05:42:30.484101 openat(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_writable.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.485017 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a920) = -1 ENOENT (No such file or directory)
+05:42:30.485177 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a920) = -1 ENOENT (No such file or directory)
+05:42:30.485383 openat(AT_FDCWD, "/home/auditor/app/node_modules/util-deprecate/package.json", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.485780 statx(AT_FDCWD, "/home/auditor/app/node_modules/util-deprecate", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.485907 statx(AT_FDCWD, "/home/auditor/app/node_modules/util-deprecate.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a840) = -1 ENOENT (No such file or directory)
+05:42:30.486027 statx(AT_FDCWD, "/home/auditor/app/node_modules/util-deprecate.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a840) = -1 ENOENT (No such file or directory)
+05:42:30.486248 statx(AT_FDCWD, "/home/auditor/app/node_modules/util-deprecate.node", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a840) = -1 ENOENT (No such file or directory)
+05:42:30.486378 statx(AT_FDCWD, "/home/auditor/app/node_modules/util-deprecate/node.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=123, ...}) = 0
+05:42:30.486532 statx(AT_FDCWD, "/home/auditor/app/node_modules/util-deprecate", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.486656 statx(AT_FDCWD, "/home/auditor/app/node_modules/util-deprecate/node.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=123, ...}) = 0
+05:42:30.486959 openat(AT_FDCWD, "/home/auditor/app/node_modules/util-deprecate/node.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.487649 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_duplex.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4381, ...}) = 0
+05:42:30.487793 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_duplex.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4381, ...}) = 0
+05:42:30.487960 openat(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_duplex.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.488458 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_readable", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a910) = -1 ENOENT (No such file or directory)
+05:42:30.488613 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_writable", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a910) = -1 ENOENT (No such file or directory)
+05:42:30.488788 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_transform.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=7936, ...}) = 0
+05:42:30.488928 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_transform.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=7936, ...}) = 0
+05:42:30.489084 openat(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_transform.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.489618 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_duplex", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a940) = -1 ENOENT (No such file or directory)
+05:42:30.489790 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_passthrough.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1628, ...}) = 0
+05:42:30.489933 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_passthrough.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1628, ...}) = 0
+05:42:30.490096 openat(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_passthrough.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.490553 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/_stream_transform", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a940) = -1 ENOENT (No such file or directory)
+05:42:30.490718 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/end-of-stream.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3084, ...}) = 0
+05:42:30.490855 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/end-of-stream.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3084, ...}) = 0
+05:42:30.491018 openat(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/end-of-stream.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.491819 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/pipeline.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2416, ...}) = 0
+05:42:30.492008 statx(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/pipeline.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2416, ...}) = 0
+05:42:30.492349 openat(AT_FDCWD, "/home/auditor/app/node_modules/readable-stream/lib/internal/streams/pipeline.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.492896 statx(AT_FDCWD, "/home/auditor/app/node_modules/duplexify/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b230) = -1 ENOENT (No such file or directory)
+05:42:30.493102 openat(AT_FDCWD, "/home/auditor/app/node_modules/end-of-stream/package.json", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.493597 statx(AT_FDCWD, "/home/auditor/app/node_modules/end-of-stream", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.493792 statx(AT_FDCWD, "/home/auditor/app/node_modules/end-of-stream.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b150) = -1 ENOENT (No such file or directory)
+05:42:30.493973 statx(AT_FDCWD, "/home/auditor/app/node_modules/end-of-stream.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b150) = -1 ENOENT (No such file or directory)
+05:42:30.494186 statx(AT_FDCWD, "/home/auditor/app/node_modules/end-of-stream.node", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b150) = -1 ENOENT (No such file or directory)
+05:42:30.494581 statx(AT_FDCWD, "/home/auditor/app/node_modules/end-of-stream/index.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2739, ...}) = 0
+05:42:30.494791 statx(AT_FDCWD, "/home/auditor/app/node_modules/end-of-stream", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.494994 statx(AT_FDCWD, "/home/auditor/app/node_modules/end-of-stream/index.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2739, ...}) = 0
+05:42:30.495227 openat(AT_FDCWD, "/home/auditor/app/node_modules/end-of-stream/index.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.495804 statx(AT_FDCWD, "/home/auditor/app/node_modules/end-of-stream/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7adc0) = -1 ENOENT (No such file or directory)
+05:42:30.496012 openat(AT_FDCWD, "/home/auditor/app/node_modules/once/package.json", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.496371 statx(AT_FDCWD, "/home/auditor/app/node_modules/once", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.496498 statx(AT_FDCWD, "/home/auditor/app/node_modules/once.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7ace0) = -1 ENOENT (No such file or directory)
+05:42:30.496601 statx(AT_FDCWD, "/home/auditor/app/node_modules/once.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7ace0) = -1 ENOENT (No such file or directory)
+05:42:30.496727 statx(AT_FDCWD, "/home/auditor/app/node_modules/once.node", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7ace0) = -1 ENOENT (No such file or directory)
+05:42:30.496861 statx(AT_FDCWD, "/home/auditor/app/node_modules/once/once.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=935, ...}) = 0
+05:42:30.496996 statx(AT_FDCWD, "/home/auditor/app/node_modules/once", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.497138 statx(AT_FDCWD, "/home/auditor/app/node_modules/once/once.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=935, ...}) = 0
+05:42:30.497287 openat(AT_FDCWD, "/home/auditor/app/node_modules/once/once.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.497800 statx(AT_FDCWD, "/home/auditor/app/node_modules/once/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a940) = -1 ENOENT (No such file or directory)
+05:42:30.497985 openat(AT_FDCWD, "/home/auditor/app/node_modules/wrappy/package.json", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.498390 statx(AT_FDCWD, "/home/auditor/app/node_modules/wrappy", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.498518 statx(AT_FDCWD, "/home/auditor/app/node_modules/wrappy.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a860) = -1 ENOENT (No such file or directory)
+05:42:30.498640 statx(AT_FDCWD, "/home/auditor/app/node_modules/wrappy.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a860) = -1 ENOENT (No such file or directory)
+05:42:30.498761 statx(AT_FDCWD, "/home/auditor/app/node_modules/wrappy.node", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a860) = -1 ENOENT (No such file or directory)
+05:42:30.498888 statx(AT_FDCWD, "/home/auditor/app/node_modules/wrappy/wrappy.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=905, ...}) = 0
+05:42:30.499024 statx(AT_FDCWD, "/home/auditor/app/node_modules/wrappy", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.499150 statx(AT_FDCWD, "/home/auditor/app/node_modules/wrappy/wrappy.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=905, ...}) = 0
+05:42:30.499308 openat(AT_FDCWD, "/home/auditor/app/node_modules/wrappy/wrappy.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.499798 statx(AT_FDCWD, "/home/auditor/app/node_modules/duplexify/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b230) = -1 ENOENT (No such file or directory)
+05:42:30.499926 statx(AT_FDCWD, "/home/auditor/app/node_modules/inherits.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b150) = -1 ENOENT (No such file or directory)
+05:42:30.500045 statx(AT_FDCWD, "/home/auditor/app/node_modules/inherits.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b150) = -1 ENOENT (No such file or directory)
+05:42:30.500201 statx(AT_FDCWD, "/home/auditor/app/node_modules/inherits.node", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b150) = -1 ENOENT (No such file or directory)
+05:42:30.500419 statx(AT_FDCWD, "/home/auditor/app/node_modules/duplexify/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b230) = -1 ENOENT (No such file or directory)
+05:42:30.500608 openat(AT_FDCWD, "/home/auditor/app/node_modules/stream-shift/package.json", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.501141 statx(AT_FDCWD, "/home/auditor/app/node_modules/stream-shift", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.501273 statx(AT_FDCWD, "/home/auditor/app/node_modules/stream-shift.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b150) = -1 ENOENT (No such file or directory)
+05:42:30.501445 statx(AT_FDCWD, "/home/auditor/app/node_modules/stream-shift.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b150) = -1 ENOENT (No such file or directory)
+05:42:30.501567 statx(AT_FDCWD, "/home/auditor/app/node_modules/stream-shift.node", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b150) = -1 ENOENT (No such file or directory)
+05:42:30.501696 statx(AT_FDCWD, "/home/auditor/app/node_modules/stream-shift/index.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=607, ...}) = 0
+05:42:30.501831 statx(AT_FDCWD, "/home/auditor/app/node_modules/stream-shift", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.501957 statx(AT_FDCWD, "/home/auditor/app/node_modules/stream-shift/index.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=607, ...}) = 0
+05:42:30.502118 openat(AT_FDCWD, "/home/auditor/app/node_modules/stream-shift/index.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.502755 openat(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/cors/package.json", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.503098 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/cors", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.503265 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/cors.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7ba60) = -1 ENOENT (No such file or directory)
+05:42:30.503398 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/cors.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7ba60) = -1 ENOENT (No such file or directory)
+05:42:30.503518 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/cors.node", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7ba60) = -1 ENOENT (No such file or directory)
+05:42:30.503645 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/cors/index.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=9959, ...}) = 0
+05:42:30.503780 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/cors", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.503895 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/cors/index.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=9959, ...}) = 0
+05:42:30.504377 openat(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/cors/index.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.505045 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/cors/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b6b0) = -1 ENOENT (No such file or directory)
+05:42:30.505171 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b6b0) = -1 ENOENT (No such file or directory)
+05:42:30.505303 statx(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b5d0) = -1 ENOENT (No such file or directory)
+05:42:30.505461 statx(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b5d0) = -1 ENOENT (No such file or directory)
+05:42:30.505584 statx(AT_FDCWD, "/home/auditor/app/node_modules/fastify-plugin.node", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b5d0) = -1 ENOENT (No such file or directory)
+05:42:30.505742 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/cors/vary", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b6b0) = -1 ENOENT (No such file or directory)
+05:42:30.505901 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/cors/vary.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3049, ...}) = 0
+05:42:30.506037 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/cors/vary.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3049, ...}) = 0
+05:42:30.506190 openat(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/cors/vary.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.506662 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/cors/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b230) = -1 ENOENT (No such file or directory)
+05:42:30.506781 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b230) = -1 ENOENT (No such file or directory)
+05:42:30.506904 openat(AT_FDCWD, "/home/auditor/app/node_modules/toad-cache/package.json", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.507976 statx(AT_FDCWD, "/home/auditor/app/node_modules/toad-cache/dist/toad-cache.cjs", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=17226, ...}) = 0
+05:42:30.508117 statx(AT_FDCWD, "/home/auditor/app/node_modules/toad-cache", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.508254 statx(AT_FDCWD, "/home/auditor/app/node_modules/toad-cache/dist", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.508386 statx(AT_FDCWD, "/home/auditor/app/node_modules/toad-cache/dist/toad-cache.cjs", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=17226, ...}) = 0
+05:42:30.508536 openat(AT_FDCWD, "/home/auditor/app/node_modules/toad-cache/dist/toad-cache.cjs", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.509509 openat(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload/package.json", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.510084 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.510218 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7ba60) = -1 ENOENT (No such file or directory)
+05:42:30.510359 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7ba60) = -1 ENOENT (No such file or directory)
+05:42:30.510485 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload.node", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7ba60) = -1 ENOENT (No such file or directory)
+05:42:30.510613 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload/index.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=9705, ...}) = 0
+05:42:30.510749 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.510874 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload/index.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=9705, ...}) = 0
+05:42:30.511035 openat(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload/index.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.512424 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload/lib/find-plugins", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b6c0) = -1 ENOENT (No such file or directory)
+05:42:30.512552 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload/lib/find-plugins.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=6450, ...}) = 0
+05:42:30.512688 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload/lib", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.512818 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload/lib/find-plugins.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=6450, ...}) = 0
+05:42:30.512993 openat(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload/lib/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.513154 openat(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload/lib/find-plugins.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.513762 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload/lib", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.513913 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload/lib/runtime", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b240) = -1 ENOENT (No such file or directory)
+05:42:30.514046 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload/lib/runtime.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3499, ...}) = 0
+05:42:30.514233 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload/lib/runtime.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3499, ...}) = 0
+05:42:30.514441 openat(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload/lib/runtime.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.515132 statx(AT_FDCWD, "/home/auditor/app/node_modules/@fastify/autoload/lib/runtime", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b6c0) = -1 ENOENT (No such file or directory)
+05:42:30.515309 statx(AT_FDCWD, "/home/auditor/app", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.515435 statx(AT_FDCWD, "/home/auditor/app/utilities/bootstrap-loader", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7bb40) = -1 ENOENT (No such file or directory)
+05:42:30.515562 statx(AT_FDCWD, "/home/auditor/app/utilities/bootstrap-loader.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=2038, ...}) = 0
+05:42:30.515697 statx(AT_FDCWD, "/home/auditor/app/utilities", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.515820 statx(AT_FDCWD, "/home/auditor/app/utilities/bootstrap-loader.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=2038, ...}) = 0
+05:42:30.515963 openat(AT_FDCWD, "/home/auditor/app/utilities/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.516134 openat(AT_FDCWD, "/home/auditor/app/utilities/bootstrap-loader.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.516620 statx(AT_FDCWD, "/home/auditor/app/utilities/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b6b0) = -1 ENOENT (No such file or directory)
+05:42:30.516750 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/package.json", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.517150 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/index.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1769, ...}) = 0
+05:42:30.517463 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.517630 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.517760 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/index.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1769, ...}) = 0
+05:42:30.517903 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.518041 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/index.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.518524 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.518653 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/composer.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=8608, ...}) = 0
+05:42:30.518789 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.518917 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/composer.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=8608, ...}) = 0
+05:42:30.519057 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.519197 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/composer.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.519825 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/doc/directives.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=6237, ...}) = 0
+05:42:30.519964 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/doc", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.520091 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/doc/directives.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=6237, ...}) = 0
+05:42:30.520232 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/doc/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.520372 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/doc/directives.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.520882 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/identity.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1794, ...}) = 0
+05:42:30.521022 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.521154 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/identity.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1794, ...}) = 0
+05:42:30.521298 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.521491 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/identity.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.522036 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/visit.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=9253, ...}) = 0
+05:42:30.522179 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/visit.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=9253, ...}) = 0
+05:42:30.522327 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/visit.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.522961 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/doc/Document.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=13114, ...}) = 0
+05:42:30.523098 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/doc/Document.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=13114, ...}) = 0
+05:42:30.523251 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/doc/Document.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.523891 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/Alias.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3801, ...}) = 0
+05:42:30.524027 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/Alias.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3801, ...}) = 0
+05:42:30.524188 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/Alias.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.529663 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/doc/anchors.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2386, ...}) = 0
+05:42:30.529840 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/doc/anchors.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2386, ...}) = 0
+05:42:30.530054 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/doc/anchors.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.530610 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.530812 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/Node.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1382, ...}) = 0
+05:42:30.530956 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/Node.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1382, ...}) = 0
+05:42:30.531108 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/Node.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.531588 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/doc/applyReviver.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1950, ...}) = 0
+05:42:30.531731 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/doc/applyReviver.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1950, ...}) = 0
+05:42:30.531882 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/doc/applyReviver.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.532336 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/toJS.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1292, ...}) = 0
+05:42:30.532503 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/toJS.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1292, ...}) = 0
+05:42:30.532649 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/toJS.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.533130 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/Collection.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=5221, ...}) = 0
+05:42:30.533268 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/Collection.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=5221, ...}) = 0
+05:42:30.533446 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/Collection.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.534027 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/doc/createNode.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3138, ...}) = 0
+05:42:30.534161 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/doc/createNode.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3138, ...}) = 0
+05:42:30.534310 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/doc/createNode.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.534774 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/Scalar.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=759, ...}) = 0
+05:42:30.534906 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/Scalar.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=759, ...}) = 0
+05:42:30.535040 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/Scalar.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.535516 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/Pair.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1232, ...}) = 0
+05:42:30.535650 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/Pair.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1232, ...}) = 0
+05:42:30.535796 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/Pair.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.536714 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringifyPair.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=5454, ...}) = 0
+05:42:30.536848 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.536971 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringifyPair.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=5454, ...}) = 0
+05:42:30.537117 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.537253 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringifyPair.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.537823 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.537957 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringify.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4504, ...}) = 0
+05:42:30.538095 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringify.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4504, ...}) = 0
+05:42:30.538246 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringify.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.538742 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringifyComment.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=801, ...}) = 0
+05:42:30.538875 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringifyComment.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=801, ...}) = 0
+05:42:30.539021 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringifyComment.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.539478 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringifyString.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=13345, ...}) = 0
+05:42:30.539612 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringifyString.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=13345, ...}) = 0
+05:42:30.539757 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringifyString.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.540800 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/foldFlowLines.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4885, ...}) = 0
+05:42:30.541068 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/foldFlowLines.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4885, ...}) = 0
+05:42:30.541289 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/foldFlowLines.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.541855 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/addPairToJSMap.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2338, ...}) = 0
+05:42:30.542014 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/addPairToJSMap.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2338, ...}) = 0
+05:42:30.542172 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/addPairToJSMap.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.542657 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/log.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=459, ...}) = 0
+05:42:30.542832 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/log.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=459, ...}) = 0
+05:42:30.542982 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/log.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.543453 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/merge.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2548, ...}) = 0
+05:42:30.543590 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.543714 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.543844 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/merge.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2548, ...}) = 0
+05:42:30.543983 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.544113 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.544251 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/merge.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.544816 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/Schema.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1547, ...}) = 0
+05:42:30.544952 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/Schema.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1547, ...}) = 0
+05:42:30.545101 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/Schema.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.545580 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.545709 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/common/map.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=483, ...}) = 0
+05:42:30.545947 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/common", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.546073 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/common/map.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=483, ...}) = 0
+05:42:30.546212 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/common/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.546352 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/common/map.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.546838 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/YAMLMap.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=5105, ...}) = 0
+05:42:30.546974 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/YAMLMap.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=5105, ...}) = 0
+05:42:30.547123 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/YAMLMap.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.547629 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringifyCollection.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=5359, ...}) = 0
+05:42:30.547766 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringifyCollection.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=5359, ...}) = 0
+05:42:30.547916 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringifyCollection.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.548479 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/common/seq.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=484, ...}) = 0
+05:42:30.548623 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/common/seq.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=484, ...}) = 0
+05:42:30.548936 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/common/seq.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.549701 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/YAMLSeq.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3667, ...}) = 0
+05:42:30.549866 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/YAMLSeq.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3667, ...}) = 0
+05:42:30.550019 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/nodes/YAMLSeq.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.550572 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/common/string.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=457, ...}) = 0
+05:42:30.550715 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/common/string.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=457, ...}) = 0
+05:42:30.550865 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/common/string.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.551367 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/tags.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3239, ...}) = 0
+05:42:30.551508 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/tags.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3239, ...}) = 0
+05:42:30.551657 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/tags.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.552543 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/common/null.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=469, ...}) = 0
+05:42:30.552685 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/common/null.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=469, ...}) = 0
+05:42:30.552846 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/common/null.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.553410 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/core/bool.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=635, ...}) = 0
+05:42:30.553551 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/core", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.553675 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/core/bool.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=635, ...}) = 0
+05:42:30.553819 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/core/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.553969 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/core/bool.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.554462 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/core/float.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1510, ...}) = 0
+05:42:30.554609 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/core/float.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1510, ...}) = 0
+05:42:30.554768 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/core/float.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.555305 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringifyNumber.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=748, ...}) = 0
+05:42:30.555441 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringifyNumber.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=748, ...}) = 0
+05:42:30.555598 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringifyNumber.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.556272 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/core/int.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1407, ...}) = 0
+05:42:30.556468 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/core/int.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1407, ...}) = 0
+05:42:30.556635 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/core/int.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.557140 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/core/schema.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=509, ...}) = 0
+05:42:30.557286 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/core/schema.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=509, ...}) = 0
+05:42:30.557508 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/core/schema.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.558467 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/core", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.558682 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/json/schema.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1900, ...}) = 0
+05:42:30.558819 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/json", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.558943 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/json/schema.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1900, ...}) = 0
+05:42:30.559172 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/json/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.559319 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/json/schema.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.559897 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/binary.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2800, ...}) = 0
+05:42:30.560040 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/binary.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2800, ...}) = 0
+05:42:30.560216 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/binary.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.560801 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/omap.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2581, ...}) = 0
+05:42:30.560943 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/omap.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2581, ...}) = 0
+05:42:30.561122 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/omap.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.561724 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.561853 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/pairs.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2854, ...}) = 0
+05:42:30.561992 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/pairs.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2854, ...}) = 0
+05:42:30.562150 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/pairs.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.562761 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/schema.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=912, ...}) = 0
+05:42:30.562904 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/schema.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=912, ...}) = 0
+05:42:30.563061 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/schema.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.563658 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/bool.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=841, ...}) = 0
+05:42:30.563884 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/bool.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=841, ...}) = 0
+05:42:30.564040 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/bool.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.564544 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/float.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1626, ...}) = 0
+05:42:30.564688 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/float.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1626, ...}) = 0
+05:42:30.564845 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/float.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.565613 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/int.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2232, ...}) = 0
+05:42:30.565808 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/int.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2232, ...}) = 0
+05:42:30.566026 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/int.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.566641 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/set.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3114, ...}) = 0
+05:42:30.566822 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/set.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3114, ...}) = 0
+05:42:30.566980 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/set.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.567528 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/timestamp.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3775, ...}) = 0
+05:42:30.567669 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/timestamp.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3775, ...}) = 0
+05:42:30.567827 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/schema/yaml-1.1/timestamp.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.568481 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringifyDocument.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3104, ...}) = 0
+05:42:30.568623 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringifyDocument.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3104, ...}) = 0
+05:42:30.568787 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/stringify/stringifyDocument.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.573456 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/doc", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.573785 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/errors.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2124, ...}) = 0
+05:42:30.574001 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/errors.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=2124, ...}) = 0
+05:42:30.574294 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/errors.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.574819 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.574954 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/compose-doc.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1615, ...}) = 0
+05:42:30.575092 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/compose-doc.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1615, ...}) = 0
+05:42:30.575249 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/compose-doc.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.575704 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/compose-node.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3964, ...}) = 0
+05:42:30.576416 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/compose-node.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3964, ...}) = 0
+05:42:30.576571 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/compose-node.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.577078 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/compose-collection.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3618, ...}) = 0
+05:42:30.577216 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/compose-collection.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3618, ...}) = 0
+05:42:30.577387 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/compose-collection.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.577914 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-block-map.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=5071, ...}) = 0
+05:42:30.578048 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-block-map.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=5071, ...}) = 0
+05:42:30.578199 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-block-map.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.578705 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-props.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=5579, ...}) = 0
+05:42:30.578842 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-props.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=5579, ...}) = 0
+05:42:30.578994 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-props.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.579482 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/util-contains-newline.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1081, ...}) = 0
+05:42:30.579622 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/util-contains-newline.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1081, ...}) = 0
+05:42:30.580167 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/util-contains-newline.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.580623 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/util-flow-indent-check.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=547, ...}) = 0
+05:42:30.580777 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/util-flow-indent-check.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=547, ...}) = 0
+05:42:30.580925 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/util-flow-indent-check.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.581384 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/util-map-includes.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=471, ...}) = 0
+05:42:30.581537 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/util-map-includes.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=471, ...}) = 0
+05:42:30.581875 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/util-map-includes.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.582367 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-block-seq.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1820, ...}) = 0
+05:42:30.582508 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-block-seq.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1820, ...}) = 0
+05:42:30.582666 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-block-seq.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.583170 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-flow-collection.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=8946, ...}) = 0
+05:42:30.583314 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-flow-collection.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=8946, ...}) = 0
+05:42:30.583466 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-flow-collection.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.584232 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-end.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1264, ...}) = 0
+05:42:30.584367 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-end.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1264, ...}) = 0
+05:42:30.584520 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-end.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.584981 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/compose-scalar.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3446, ...}) = 0
+05:42:30.585120 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/compose-scalar.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3446, ...}) = 0
+05:42:30.585272 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/compose-scalar.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.585808 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-block-scalar.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=7500, ...}) = 0
+05:42:30.585948 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-block-scalar.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=7500, ...}) = 0
+05:42:30.588158 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-block-scalar.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.588718 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-flow-scalar.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=7364, ...}) = 0
+05:42:30.588855 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-flow-scalar.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=7364, ...}) = 0
+05:42:30.589043 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/resolve-flow-scalar.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.589637 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/util-empty-scalar-position.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=850, ...}) = 0
+05:42:30.589776 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/util-empty-scalar-position.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=850, ...}) = 0
+05:42:30.589922 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/compose/util-empty-scalar-position.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.590446 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/cst.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3242, ...}) = 0
+05:42:30.590585 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.590711 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/cst.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3242, ...}) = 0
+05:42:30.590848 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.590989 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/cst.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.591451 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.591580 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/cst-scalar.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=9382, ...}) = 0
+05:42:30.591713 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/cst-scalar.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=9382, ...}) = 0
+05:42:30.591861 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/cst-scalar.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.592492 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/cst-stringify.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1799, ...}) = 0
+05:42:30.592626 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/cst-stringify.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1799, ...}) = 0
+05:42:30.592772 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/cst-stringify.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.593236 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/cst-visit.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3986, ...}) = 0
+05:42:30.593497 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/cst-visit.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=3986, ...}) = 0
+05:42:30.593646 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/cst-visit.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.594516 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/lexer.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=24073, ...}) = 0
+05:42:30.594651 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/lexer.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=24073, ...}) = 0
+05:42:30.594797 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/lexer.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.595612 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/line-counter.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1445, ...}) = 0
+05:42:30.595747 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/line-counter.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1445, ...}) = 0
+05:42:30.595893 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/line-counter.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.596351 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/parser.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=35340, ...}) = 0
+05:42:30.596491 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/parser.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=35340, ...}) = 0
+05:42:30.596636 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/parse/parser.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.597692 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/public-api.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4187, ...}) = 0
+05:42:30.597830 statx(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/public-api.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=4187, ...}) = 0
+05:42:30.597976 openat(AT_FDCWD, "/home/auditor/app/node_modules/yaml/dist/public-api.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.598538 statx(AT_FDCWD, "/home/auditor/app/utilities/connection-registry", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7bb40) = -1 ENOENT (No such file or directory)
+05:42:30.598661 statx(AT_FDCWD, "/home/auditor/app/utilities/connection-registry.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=7468, ...}) = 0
+05:42:30.598793 statx(AT_FDCWD, "/home/auditor/app/utilities/connection-registry.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=7468, ...}) = 0
+05:42:30.598936 openat(AT_FDCWD, "/home/auditor/app/utilities/connection-registry.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.599493 statx(AT_FDCWD, "/home/auditor/app/utilities/server-join", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7bb40) = -1 ENOENT (No such file or directory)
+05:42:30.599614 statx(AT_FDCWD, "/home/auditor/app/utilities/server-join.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=9842, ...}) = 0
+05:42:30.599840 statx(AT_FDCWD, "/home/auditor/app/utilities/server-join.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=9842, ...}) = 0
+05:42:30.600025 openat(AT_FDCWD, "/home/auditor/app/utilities/server-join.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.600979 statx(AT_FDCWD, "/home/auditor/app/utilities/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b6c0) = -1 ENOENT (No such file or directory)
+05:42:30.601247 statx(AT_FDCWD, "/home/auditor/app/server-messages/SERVER_HELLO_JOIN", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b6c0) = -1 ENOENT (No such file or directory)
+05:42:30.601458 statx(AT_FDCWD, "/home/auditor/app/server-messages/SERVER_HELLO_JOIN.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=834, ...}) = 0
+05:42:30.601620 statx(AT_FDCWD, "/home/auditor/app/server-messages", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.601743 statx(AT_FDCWD, "/home/auditor/app/server-messages/SERVER_HELLO_JOIN.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=834, ...}) = 0
+05:42:30.601879 openat(AT_FDCWD, "/home/auditor/app/server-messages/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.602041 openat(AT_FDCWD, "/home/auditor/app/server-messages/SERVER_HELLO_JOIN.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.602690 statx(AT_FDCWD, "/home/auditor/app/utilities", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.602843 statx(AT_FDCWD, "/home/auditor/app/utilities/message-utils", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b6c0) = -1 ENOENT (No such file or directory)
+05:42:30.602976 statx(AT_FDCWD, "/home/auditor/app/utilities/message-utils.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=2346, ...}) = 0
+05:42:30.603111 statx(AT_FDCWD, "/home/auditor/app/utilities/message-utils.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=2346, ...}) = 0
+05:42:30.603284 openat(AT_FDCWD, "/home/auditor/app/utilities/message-utils.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.603770 statx(AT_FDCWD, "/home/auditor/app/utilities/crypto", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7b230) = -1 ENOENT (No such file or directory)
+05:42:30.603896 statx(AT_FDCWD, "/home/auditor/app/utilities/crypto.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=2310, ...}) = 0
+05:42:30.604027 statx(AT_FDCWD, "/home/auditor/app/utilities/crypto.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=2310, ...}) = 0
+05:42:30.604172 openat(AT_FDCWD, "/home/auditor/app/utilities/crypto.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.604644 statx(AT_FDCWD, "/home/auditor/app/utilities/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7adb0) = -1 ENOENT (No such file or directory)
+05:42:30.604766 openat(AT_FDCWD, "/home/auditor/app/node_modules/base64url-universal/package.json", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.605186 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url-universal/lib/index.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=195, ...}) = 0
+05:42:30.605325 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url-universal", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.605482 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url-universal/lib", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.605605 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url-universal/lib/index.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=195, ...}) = 0
+05:42:30.605843 openat(AT_FDCWD, "/home/auditor/app/node_modules/base64url-universal/lib/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.605983 openat(AT_FDCWD, "/home/auditor/app/node_modules/base64url-universal/lib/index.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.607611 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url-universal/lib/node_modules/base64url", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a580) = -1 ENOENT (No such file or directory)
+05:42:30.607862 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url-universal/node_modules/base64url", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a580) = -1 ENOENT (No such file or directory)
+05:42:30.608042 statx(AT_FDCWD, "/home/auditor/app/node_modules/node_modules/base64url", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a580) = -1 ENOENT (No such file or directory)
+05:42:30.608241 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.608368 openat(AT_FDCWD, "/home/auditor/app/node_modules/base64url/package.json", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.608749 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url/index.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=95, ...}) = 0
+05:42:30.609091 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url/index.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=95, ...}) = 0
+05:42:30.609506 statx(AT_FDCWD, "/home", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.609669 statx(AT_FDCWD, "/home/auditor", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.609832 statx(AT_FDCWD, "/home/auditor/app", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.609953 statx(AT_FDCWD, "/home/auditor/app/node_modules", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=12288, ...}) = 0
+05:42:30.610075 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.610222 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url/index.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=95, ...}) = 0
+05:42:30.610630 openat(AT_FDCWD, "/home/auditor/app/node_modules/base64url/index.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.610854 statx(17, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=95, ...}) = 0
+05:42:30.612590 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.612724 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url/dist/base64url", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7a3f0) = -1 ENOENT (No such file or directory)
+05:42:30.612850 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url/dist/base64url.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1144, ...}) = 0
+05:42:30.612989 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.613120 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url/dist", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.613262 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url/dist/base64url.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=1144, ...}) = 0
+05:42:30.613474 openat(AT_FDCWD, "/home/auditor/app/node_modules/base64url/dist/base64url.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.615425 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url/index.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=95, ...}) = 0
+05:42:30.615580 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url/index.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=95, ...}) = 0
+05:42:30.615802 openat(AT_FDCWD, "/home/auditor/app/node_modules/base64url/dist/package.json", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+05:42:30.616013 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url/dist", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+05:42:30.616142 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url/dist/pad-string", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d79460) = -1 ENOENT (No such file or directory)
+05:42:30.616271 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url/dist/pad-string.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=597, ...}) = 0
+05:42:30.616404 statx(AT_FDCWD, "/home/auditor/app/node_modules/base64url/dist/pad-string.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=597, ...}) = 0
+05:42:30.616569 openat(AT_FDCWD, "/home/auditor/app/node_modules/base64url/dist/pad-string.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.617080 statx(AT_FDCWD, "/home/auditor/app/utilities/server-keys", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7bb40) = -1 ENOENT (No such file or directory)
+05:42:30.617208 statx(AT_FDCWD, "/home/auditor/app/utilities/server-keys.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=4049, ...}) = 0
+05:42:30.617357 statx(AT_FDCWD, "/home/auditor/app/utilities/server-keys.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=4049, ...}) = 0
+05:42:30.617507 openat(AT_FDCWD, "/home/auditor/app/utilities/server-keys.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.618462 statx(AT_FDCWD, "/home/auditor/app/utilities/public-channel-keys", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7ffc76d7bb40) = -1 ENOENT (No such file or directory)
+05:42:30.618647 statx(AT_FDCWD, "/home/auditor/app/utilities/public-channel-keys.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=962, ...}) = 0
+05:42:30.618797 statx(AT_FDCWD, "/home/auditor/app/utilities/public-channel-keys.js", AT_STATX_SYNC_AS_STAT|AT_SYMLINK_NOFOLLOW, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=962, ...}) = 0
+05:42:30.618952 openat(AT_FDCWD, "/home/auditor/app/utilities/public-channel-keys.js", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.638408 exit_group(0)           = ?
+05:42:30.644232 +++ exited with 0 +++

@@ -1,0 +1,62 @@
+04:41:22.701444 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:41:22.701629 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/encodings/idna.py", {st_mode=S_IFREG|0644, st_size=9098, ...}, 0) = 0
+04:41:22.701788 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/encodings/idna.py", {st_mode=S_IFREG|0644, st_size=9098, ...}, 0) = 0
+04:41:22.701941 openat(AT_FDCWD, "/usr/local/lib/python3.11/encodings/__pycache__/idna.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+04:41:22.702093 openat(AT_FDCWD, "/usr/local/lib/python3.11/encodings/idna.py", O_RDONLY|O_CLOEXEC) = 7
+04:41:22.702236 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=9098, ...}, AT_EMPTY_PATH) = 0
+04:41:22.702660 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=9098, ...}, AT_EMPTY_PATH) = 0
+04:41:22.709483 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/encodings/idna.py", {st_mode=S_IFREG|0644, st_size=9098, ...}, 0) = 0
+04:41:22.709727 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/encodings/__pycache__", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:41:22.709929 openat(AT_FDCWD, "/usr/local/lib/python3.11/encodings/__pycache__/idna.cpython-311.pyc.128126548488880", O_WRONLY|O_CREAT|O_EXCL|O_CLOEXEC, 0644) = -1 EACCES (Permission denied)
+04:41:22.710171 newfstatat(AT_FDCWD, "/home/auditor/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:41:22.710336 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:41:22.710473 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/stringprep.py", {st_mode=S_IFREG|0644, st_size=12917, ...}, 0) = 0
+04:41:22.710682 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/stringprep.py", {st_mode=S_IFREG|0644, st_size=12917, ...}, 0) = 0
+04:41:22.710809 openat(AT_FDCWD, "/usr/local/lib/python3.11/__pycache__/stringprep.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+04:41:22.710944 openat(AT_FDCWD, "/usr/local/lib/python3.11/stringprep.py", O_RDONLY|O_CLOEXEC) = 7
+04:41:22.711076 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=12917, ...}, AT_EMPTY_PATH) = 0
+04:41:22.711554 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=12917, ...}, AT_EMPTY_PATH) = 0
+04:41:22.721617 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/stringprep.py", {st_mode=S_IFREG|0644, st_size=12917, ...}, 0) = 0
+04:41:22.721802 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/__pycache__", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:41:22.721932 openat(AT_FDCWD, "/usr/local/lib/python3.11/__pycache__/stringprep.cpython-311.pyc.128126548490288", O_WRONLY|O_CREAT|O_EXCL|O_CLOEXEC, 0644) = -1 EACCES (Permission denied)
+04:41:22.722279 newfstatat(AT_FDCWD, "/home/auditor/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:41:22.722431 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:41:22.722584 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:41:22.722717 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/lib-dynload/unicodedata.cpython-311-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=1131672, ...}, 0) = 0
+04:41:22.722877 openat(AT_FDCWD, "/usr/local/lib/python3.11/lib-dynload/unicodedata.cpython-311-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 7
+04:41:22.723108 newfstatat(7, "", {st_mode=S_IFREG|0755, st_size=1131672, ...}, AT_EMPTY_PATH) = 0
+04:41:22.724050 openat(AT_FDCWD, "/proc/sys/vm/overcommit_memory", O_RDONLY|O_CLOEXEC) = 7
+04:41:22.724919 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 7
+04:41:22.725060 connect(7, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+04:41:22.725393 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 7
+04:41:22.725525 connect(7, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+04:41:22.725770 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=494, ...}, 0) = 0
+04:41:22.725911 newfstatat(AT_FDCWD, "/", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:41:22.726045 openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 7
+04:41:22.726175 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=494, ...}, AT_EMPTY_PATH) = 0
+04:41:22.726548 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=494, ...}, AT_EMPTY_PATH) = 0
+04:41:22.726812 newfstatat(AT_FDCWD, "/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=222, ...}, 0) = 0
+04:41:22.726962 openat(AT_FDCWD, "/etc/host.conf", O_RDONLY|O_CLOEXEC) = 7
+04:41:22.727125 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=9, ...}, AT_EMPTY_PATH) = 0
+04:41:22.727934 openat(AT_FDCWD, "/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 7
+04:41:22.728065 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=222, ...}, AT_EMPTY_PATH) = 0
+04:41:22.728502 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=222, ...}, AT_EMPTY_PATH) = 0
+04:41:22.728739 openat(AT_FDCWD, "/etc/hosts", O_RDONLY|O_CLOEXEC) = 7
+04:41:22.728863 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=148, ...}, AT_EMPTY_PATH) = 0
+04:41:22.729384 openat(AT_FDCWD, "/etc/gai.conf", O_RDONLY|O_CLOEXEC) = 7
+04:41:22.729531 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=2584, ...}, AT_EMPTY_PATH) = 0
+04:41:22.729666 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=2584, ...}, AT_EMPTY_PATH) = 0
+04:41:22.730265 socket(AF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, NETLINK_ROUTE) = 7
+04:41:22.730538 bind(7, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 0
+04:41:22.730832 getsockname(7, {sa_family=AF_NETLINK, nl_pid=12, nl_groups=00000000}, [12]) = 0
+04:41:22.730981 sendto(7, [{nlmsg_len=20, nlmsg_type=RTM_GETADDR, nlmsg_flags=NLM_F_REQUEST|NLM_F_DUMP, nlmsg_seq=1760330482, nlmsg_pid=0}, {ifa_family=AF_UNSPEC, ...}], 20, 0, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 20
+04:41:22.731395 recvmsg(7, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{nlmsg_len=76, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1760330482, nlmsg_pid=12}, {ifa_family=AF_INET, ifa_prefixlen=8, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_HOST, ifa_index=if_nametoindex("lo")}, [[{nla_len=8, nla_type=IFA_ADDRESS}, inet_addr("127.0.0.1")], [{nla_len=8, nla_type=IFA_LOCAL}, inet_addr("127.0.0.1")], [{nla_len=7, nla_type=IFA_LABEL}, "lo"], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=1902335, tstamp=1902335}]]], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 76
+04:41:22.731685 recvmsg(7, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{nlmsg_len=80, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1760330482, nlmsg_pid=12}, {ifa_family=AF_INET6, ifa_prefixlen=128, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_HOST, ifa_index=if_nametoindex("lo")}, [[{nla_len=20, nla_type=IFA_ADDRESS}, inet_pton(AF_INET6, "::1")], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=1902335, tstamp=1902335}], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT], [{nla_len=5, nla_type=IFA_PROTO}, "\x01"]]], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 80
+04:41:22.731833 recvmsg(7, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{nlmsg_len=20, nlmsg_type=NLMSG_DONE, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1760330482, nlmsg_pid=12}, 0], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 20
+04:41:22.732043 socket(AF_INET, SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_IP) = 7
+04:41:22.732251 connect(7, {sa_family=AF_INET, sin_port=htons(8080), sin_addr=inet_addr("127.0.0.1")}, 16) = 0
+04:41:22.732398 getsockname(7, {sa_family=AF_INET, sin_port=htons(45432), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 0
+04:41:22.732708 socket(AF_INET6, SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_IP) = 7
+04:41:22.732908 connect(7, {sa_family=AF_INET6, sin6_port=htons(8080), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_scope_id=0}, 28) = 0
+04:41:22.733042 getsockname(7, {sa_family=AF_INET6, sin6_port=htons(33601), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_scope_id=0}, [28]) = 0
+04:41:22.733345 sendto(5, "\0", 1, 0, NULL, 0) = 1

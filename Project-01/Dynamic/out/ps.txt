@@ -1,4 +1,6 @@
 USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
-auditor      1  0.0  0.0   2584  1536 pts/0    Ss   03:44   0:00 /bin/sh
-auditor     11  0.0  0.0   2860  1280 pts/0    S    03:46   0:00 inotifywait -m -r -e create,modify,delete,attrib /tmp /home/auditor/app -o /home/auditor/out/inotify.log
-auditor     31  0.0  0.0   8096  4096 pts/0    R+   03:49   0:00 ps auxwwwf
+auditor      1  0.0  0.0   2584  1536 pts/0    Ss   04:39   0:00 /bin/sh
+auditor      8  0.0  0.0   2684  1536 pts/0    S    04:40   0:00 inotifywait -m -r -e create,modify,delete,attrib /tmp /home/auditor/app -o /home/auditor/out/inotify.log
+auditor      9  0.3  0.0   5460  3584 pts/0    S    04:41   0:00 strace -ff -tt -e trace=network,file,process -s 512 -o /home/auditor/out/strace_log python3 server.py
+auditor     12  0.6  0.5 125184 40108 pts/0    Sl   04:41   0:00  \_ python3 server.py
+auditor     16  0.0  0.0   8488  4352 pts/0    R+   04:43   0:00 ps auxwwwf

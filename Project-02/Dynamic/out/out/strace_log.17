@@ -1,0 +1,3 @@
+05:42:30.458710 openat(AT_FDCWD, "/proc/sys/vm/overcommit_memory", O_RDONLY|O_CLOEXEC) = 17
+05:42:30.634656 exit(0)                 = ?
+05:42:30.634850 +++ exited with 0 +++

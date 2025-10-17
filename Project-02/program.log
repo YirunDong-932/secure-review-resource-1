@@ -1,2 +1,0 @@
-/home/auditor/app/server.py:13: DeprecationWarning: websockets.server.WebSocketServerProtocol is deprecated
-  from websockets.server import WebSocketServerProtocol
