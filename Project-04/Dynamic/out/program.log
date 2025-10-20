@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/auditor/app/socp_gui_client_pro.py", line 2, in <module>
+    import threading, queue, json, time, uuid, os, sys, tkinter as tk
+  File "/usr/local/lib/python3.11/tkinter/__init__.py", line 38, in <module>
+    import _tkinter # If this fails your Python may not be configured for Tk
+    ^^^^^^^^^^^^^^^
+ImportError: libtk8.6.so: cannot open shared object file: No such file or directory
+Launched server_single.py (pid 16 ) and GUI (pid 17 ). Ctrl+C to stop.

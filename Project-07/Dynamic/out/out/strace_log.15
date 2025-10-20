@@ -1,0 +1,132 @@
+00:10:56.975286 execve("/usr/bin/node", ["node", "server/index.js"], 0x7fff34213cf8 /* 9 vars */) = 0
+00:10:56.977044 readlink("/proc/self/exe", "/usr/bin/node", 4096) = 13
+00:10:56.977198 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+00:10:56.977679 openat(AT_FDCWD, "/usr/bin/../lib/glibc-hwcaps/x86-64-v4/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.977898 newfstatat(AT_FDCWD, "/usr/bin/../lib/glibc-hwcaps/x86-64-v4", 0x7fffa4df6c10, 0) = -1 ENOENT (No such file or directory)
+00:10:56.978436 openat(AT_FDCWD, "/usr/bin/../lib/glibc-hwcaps/x86-64-v3/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.978556 newfstatat(AT_FDCWD, "/usr/bin/../lib/glibc-hwcaps/x86-64-v3", 0x7fffa4df6c10, 0) = -1 ENOENT (No such file or directory)
+00:10:56.978671 openat(AT_FDCWD, "/usr/bin/../lib/glibc-hwcaps/x86-64-v2/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.978782 newfstatat(AT_FDCWD, "/usr/bin/../lib/glibc-hwcaps/x86-64-v2", 0x7fffa4df6c10, 0) = -1 ENOENT (No such file or directory)
+00:10:56.978896 openat(AT_FDCWD, "/usr/bin/../lib/tls/x86_64/x86_64/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.979021 newfstatat(AT_FDCWD, "/usr/bin/../lib/tls/x86_64/x86_64", 0x7fffa4df6c10, 0) = -1 ENOENT (No such file or directory)
+00:10:56.979136 openat(AT_FDCWD, "/usr/bin/../lib/tls/x86_64/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.979251 newfstatat(AT_FDCWD, "/usr/bin/../lib/tls/x86_64", 0x7fffa4df6c10, 0) = -1 ENOENT (No such file or directory)
+00:10:56.979368 openat(AT_FDCWD, "/usr/bin/../lib/tls/x86_64/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.979483 newfstatat(AT_FDCWD, "/usr/bin/../lib/tls/x86_64", 0x7fffa4df6c10, 0) = -1 ENOENT (No such file or directory)
+00:10:56.979599 openat(AT_FDCWD, "/usr/bin/../lib/tls/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.979715 newfstatat(AT_FDCWD, "/usr/bin/../lib/tls", 0x7fffa4df6c10, 0) = -1 ENOENT (No such file or directory)
+00:10:56.979842 openat(AT_FDCWD, "/usr/bin/../lib/x86_64/x86_64/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.979980 newfstatat(AT_FDCWD, "/usr/bin/../lib/x86_64/x86_64", 0x7fffa4df6c10, 0) = -1 ENOENT (No such file or directory)
+00:10:56.980137 openat(AT_FDCWD, "/usr/bin/../lib/x86_64/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.980291 newfstatat(AT_FDCWD, "/usr/bin/../lib/x86_64", 0x7fffa4df6c10, 0) = -1 ENOENT (No such file or directory)
+00:10:56.980439 openat(AT_FDCWD, "/usr/bin/../lib/x86_64/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.980586 newfstatat(AT_FDCWD, "/usr/bin/../lib/x86_64", 0x7fffa4df6c10, 0) = -1 ENOENT (No such file or directory)
+00:10:56.980733 openat(AT_FDCWD, "/usr/bin/../lib/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.980862 newfstatat(AT_FDCWD, "/usr/bin/../lib", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+00:10:56.980988 openat(AT_FDCWD, "/usr/bin/glibc-hwcaps/x86-64-v4/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.981183 newfstatat(AT_FDCWD, "/usr/bin/glibc-hwcaps/x86-64-v4", 0x7fffa4df6c10, 0) = -1 ENOENT (No such file or directory)
+00:10:56.981345 openat(AT_FDCWD, "/usr/bin/glibc-hwcaps/x86-64-v3/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.981503 newfstatat(AT_FDCWD, "/usr/bin/glibc-hwcaps/x86-64-v3", 0x7fffa4df6c10, 0) = -1 ENOENT (No such file or directory)
+00:10:56.981622 openat(AT_FDCWD, "/usr/bin/glibc-hwcaps/x86-64-v2/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.981739 newfstatat(AT_FDCWD, "/usr/bin/glibc-hwcaps/x86-64-v2", 0x7fffa4df6c10, 0) = -1 ENOENT (No such file or directory)
+00:10:56.981859 openat(AT_FDCWD, "/usr/bin/tls/x86_64/x86_64/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.981999 newfstatat(AT_FDCWD, "/usr/bin/tls/x86_64/x86_64", 0x7fffa4df6c10, 0) = -1 ENOENT (No such file or directory)
+00:10:56.982132 openat(AT_FDCWD, "/usr/bin/tls/x86_64/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.982339 newfstatat(AT_FDCWD, "/usr/bin/tls/x86_64", 0x7fffa4df6c10, 0) = -1 ENOENT (No such file or directory)
+00:10:56.982461 openat(AT_FDCWD, "/usr/bin/tls/x86_64/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.982580 newfstatat(AT_FDCWD, "/usr/bin/tls/x86_64", 0x7fffa4df6c10, 0) = -1 ENOENT (No such file or directory)
+00:10:56.982692 openat(AT_FDCWD, "/usr/bin/tls/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.982808 newfstatat(AT_FDCWD, "/usr/bin/tls", 0x7fffa4df6c10, 0) = -1 ENOENT (No such file or directory)
+00:10:56.982935 openat(AT_FDCWD, "/usr/bin/x86_64/x86_64/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOTDIR (Not a directory)
+00:10:56.983074 newfstatat(AT_FDCWD, "/usr/bin/x86_64/x86_64", 0x7fffa4df6c10, 0) = -1 ENOTDIR (Not a directory)
+00:10:56.983225 openat(AT_FDCWD, "/usr/bin/x86_64/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOTDIR (Not a directory)
+00:10:56.983458 newfstatat(AT_FDCWD, "/usr/bin/x86_64", {st_mode=S_IFREG|0755, st_size=27216, ...}, 0) = 0
+00:10:56.983656 openat(AT_FDCWD, "/usr/bin/x86_64/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOTDIR (Not a directory)
+00:10:56.983820 newfstatat(AT_FDCWD, "/usr/bin/x86_64", {st_mode=S_IFREG|0755, st_size=27216, ...}, 0) = 0
+00:10:56.983972 openat(AT_FDCWD, "/usr/bin/libnode.so.108", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.984120 newfstatat(AT_FDCWD, "/usr/bin", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+00:10:56.984275 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+00:10:56.984408 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=7579, ...}, AT_EMPTY_PATH) = 0
+00:10:56.984729 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnode.so.108", O_RDONLY|O_CLOEXEC) = 3
+00:10:56.985376 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=47440672, ...}, AT_EMPTY_PATH) = 0
+00:10:56.987110 openat(AT_FDCWD, "/usr/bin/../lib/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.987240 openat(AT_FDCWD, "/usr/bin/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:56.987359 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+00:10:56.987651 newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=1926232, ...}, AT_EMPTY_PATH) = 0
+00:10:56.988449 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+00:10:56.989026 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=121280, ...}, AT_EMPTY_PATH) = 0
+00:10:56.989892 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libuv.so.1", O_RDONLY|O_CLOEXEC) = 3
+00:10:56.990373 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=194488, ...}, AT_EMPTY_PATH) = 0
+00:10:56.991517 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libbrotlidec.so.1", O_RDONLY|O_CLOEXEC) = 3
+00:10:56.991903 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=47264, ...}, AT_EMPTY_PATH) = 0
+00:10:56.992635 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libbrotlienc.so.1", O_RDONLY|O_CLOEXEC) = 3
+00:10:56.993016 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=591920, ...}, AT_EMPTY_PATH) = 0
+00:10:56.993901 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libcares.so.2", O_RDONLY|O_CLOEXEC) = 3
+00:10:56.994316 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=92024, ...}, AT_EMPTY_PATH) = 0
+00:10:56.995207 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnghttp2.so.14", O_RDONLY|O_CLOEXEC) = 3
+00:10:56.995635 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=190928, ...}, AT_EMPTY_PATH) = 0
+00:10:56.996461 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libcrypto.so.3", O_RDONLY|O_CLOEXEC) = 3
+00:10:56.996982 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=4730136, ...}, AT_EMPTY_PATH) = 0
+00:10:56.998363 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libssl.so.3", O_RDONLY|O_CLOEXEC) = 3
+00:10:56.998879 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=688160, ...}, AT_EMPTY_PATH) = 0
+00:10:57.000153 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libicui18n.so.72", O_RDONLY|O_CLOEXEC) = 3
+00:10:57.000675 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=3307688, ...}, AT_EMPTY_PATH) = 0
+00:10:57.001834 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libicuuc.so.72", O_RDONLY|O_CLOEXEC) = 3
+00:10:57.002282 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=2078888, ...}, AT_EMPTY_PATH) = 0
+00:10:57.003631 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+00:10:57.004075 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=2190440, ...}, AT_EMPTY_PATH) = 0
+00:10:57.005430 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+00:10:57.005831 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=911904, ...}, AT_EMPTY_PATH) = 0
+00:10:57.007230 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+00:10:57.007771 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=125312, ...}, AT_EMPTY_PATH) = 0
+00:10:57.008610 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libbrotlicommon.so.1", O_RDONLY|O_CLOEXEC) = 3
+00:10:57.009025 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=137376, ...}, AT_EMPTY_PATH) = 0
+00:10:57.010039 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libicudata.so.72", O_RDONLY|O_CLOEXEC) = 3
+00:10:57.010673 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=31262256, ...}, AT_EMPTY_PATH) = 0
+00:10:57.060327 newfstatat(0, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}, AT_EMPTY_PATH) = 0
+00:10:57.060508 newfstatat(1, "", {st_mode=S_IFIFO|0600, st_size=0, ...}, AT_EMPTY_PATH) = 0
+00:10:57.060629 newfstatat(2, "", {st_mode=S_IFIFO|0600, st_size=0, ...}, AT_EMPTY_PATH) = 0
+00:10:57.064115 newfstatat(1, "", {st_mode=S_IFIFO|0600, st_size=0, ...}, AT_EMPTY_PATH) = 0
+00:10:57.064439 newfstatat(2, "", {st_mode=S_IFIFO|0600, st_size=0, ...}, AT_EMPTY_PATH) = 0
+00:10:57.076037 newfstatat(AT_FDCWD, "/usr/share/zoneinfo-icu/44/le/zoneinfo64.res", 0x7fffa4df6e80, 0) = -1 ENOENT (No such file or directory)
+00:10:57.084778 openat(AT_FDCWD, "/usr/lib/ssl/openssl.cnf", O_RDONLY) = 3
+00:10:57.084972 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=12332, ...}, AT_EMPTY_PATH) = 0
+00:10:57.092642 clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x73124e352990, parent_tid=0x73124e352990, exit_signal=0, stack=0x73124db52000, stack_size=0x7ffec0, tls=0x73124e3526c0}, 88) = -1 ENOSYS (Function not implemented)
+00:10:57.092782 clone(child_stack=0x73124e351eb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[16], tls=0x73124e3526c0, child_tidptr=0x73124e352990) = 16
+00:10:57.094839 clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x73124db51990, parent_tid=0x73124db51990, exit_signal=0, stack=0x73124d351000, stack_size=0x7ffec0, tls=0x73124db516c0}, 88) = -1 ENOSYS (Function not implemented)
+00:10:57.094970 clone(child_stack=0x73124db50eb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[17], tls=0x73124db516c0, child_tidptr=0x73124db51990) = 17
+00:10:57.095623 clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x73124d350990, parent_tid=0x73124d350990, exit_signal=0, stack=0x73124cb50000, stack_size=0x7ffec0, tls=0x73124d3506c0}, 88) = -1 ENOSYS (Function not implemented)
+00:10:57.095750 clone(child_stack=0x73124d34feb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[18], tls=0x73124d3506c0, child_tidptr=0x73124d350990) = 18
+00:10:57.096845 clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x73124cb4f990, parent_tid=0x73124cb4f990, exit_signal=0, stack=0x73124c34f000, stack_size=0x7ffec0, tls=0x73124cb4f6c0}, 88) = -1 ENOSYS (Function not implemented)
+00:10:57.097028 clone(child_stack=0x73124cb4eeb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[19], tls=0x73124cb4f6c0, child_tidptr=0x73124cb4f990) = 19
+00:10:57.097983 clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x731247fff990, parent_tid=0x731247fff990, exit_signal=0, stack=0x7312477ff000, stack_size=0x7ffec0, tls=0x731247fff6c0}, 88) = -1 ENOSYS (Function not implemented)
+00:10:57.098106 clone(child_stack=0x731247ffeeb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[20], tls=0x731247fff6c0, child_tidptr=0x731247fff990) = 20
+00:10:57.106432 openat(AT_FDCWD, "/sys/fs/cgroup/memory/memory.limit_in_bytes", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:10:57.106571 openat(AT_FDCWD, "/proc/meminfo", O_RDONLY|O_CLOEXEC) = 17
+00:10:57.111508 openat(AT_FDCWD, "/proc/self/maps", O_RDONLY) = 17
+00:10:57.111895 newfstatat(17, "", {st_mode=S_IFREG|0444, st_size=0, ...}, AT_EMPTY_PATH) = 0
+00:10:57.126403 openat(AT_FDCWD, "/usr/share/nodejs/cjs-module-lexer/lexer.js", O_RDONLY|O_CLOEXEC) = 17
+00:10:57.129806 openat(AT_FDCWD, "/usr/share/nodejs/cjs-module-lexer/dist/lexer.js", O_RDONLY|O_CLOEXEC) = 17
+00:10:57.131804 openat(AT_FDCWD, "/usr/share/nodejs/undici/undici-fetch.js", O_RDONLY|O_CLOEXEC) = 17
+00:10:57.151185 openat(AT_FDCWD, "/usr/share/nodejs/acorn/dist/acorn.js", O_RDONLY|O_CLOEXEC) = 17
+00:10:57.159103 openat(AT_FDCWD, "/usr/share/nodejs/acorn-walk/dist/walk.js", O_RDONLY|O_CLOEXEC) = 17
+00:10:57.181057 readlink("/proc/self/exe", "/usr/bin/node", 8191) = 13
+00:10:57.185352 clone3({flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, child_tid=0x73124c1a5990, parent_tid=0x73124c1a5990, exit_signal=0, stack=0x73124c19d000, stack_size=0x7ec0, tls=0x73124c1a56c0}, 88) = -1 ENOSYS (Function not implemented)
+00:10:57.185512 clone(child_stack=0x73124c1a4eb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[21], tls=0x73124c1a56c0, child_tidptr=0x73124c1a5990) = 21
+00:10:57.224936 getcwd("/home/auditor/app", 4096) = 18
+00:10:57.227869 statx(AT_FDCWD, "/home/auditor/app/server/index.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7fffa4df6420) = -1 ENOENT (No such file or directory)
+00:10:57.228075 statx(AT_FDCWD, "/home/auditor/app/server/index.js.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7fffa4df6340) = -1 ENOENT (No such file or directory)
+00:10:57.228204 statx(AT_FDCWD, "/home/auditor/app/server/index.js.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7fffa4df6340) = -1 ENOENT (No such file or directory)
+00:10:57.228357 statx(AT_FDCWD, "/home/auditor/app/server/index.js.node", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7fffa4df6340) = -1 ENOENT (No such file or directory)
+00:10:57.228920 statx(AT_FDCWD, "/home/auditor/app/server/index.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7fffa4df62c0) = -1 ENOENT (No such file or directory)
+00:10:57.229116 statx(AT_FDCWD, "/home/auditor/app/server/index.js.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7fffa4df61e0) = -1 ENOENT (No such file or directory)
+00:10:57.229279 statx(AT_FDCWD, "/home/auditor/app/server/index.js.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7fffa4df61e0) = -1 ENOENT (No such file or directory)
+00:10:57.229444 statx(AT_FDCWD, "/home/auditor/app/server/index.js.node", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7fffa4df61e0) = -1 ENOENT (No such file or directory)
+00:10:57.230333 newfstatat(2, "", {st_mode=S_IFIFO|0600, st_size=0, ...}, AT_EMPTY_PATH) = 0
+00:10:57.238029 newfstatat(2, "", {st_mode=S_IFIFO|0600, st_size=0, ...}, AT_EMPTY_PATH) = 0
+00:10:57.238178 openat(AT_FDCWD, "/dev/null", O_RDONLY|O_CLOEXEC) = 17
+00:10:57.246088 newfstatat(0, "", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}, AT_EMPTY_PATH) = 0
+00:10:57.246818 newfstatat(1, "", {st_mode=S_IFIFO|0600, st_size=0, ...}, AT_EMPTY_PATH) = 0
+00:10:57.247141 newfstatat(2, "", {st_mode=S_IFIFO|0600, st_size=0, ...}, AT_EMPTY_PATH) = 0
+00:10:57.249398 exit_group(1)           = ?
+00:10:57.252627 +++ exited with 1 +++

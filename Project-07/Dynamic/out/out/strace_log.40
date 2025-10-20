@@ -1,0 +1,10 @@
+00:14:55.769038 statx(19, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0644, stx_size=127, ...}) = 0
+00:14:55.776350 statx(AT_FDCWD, "/home/auditor/app/package.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=374, ...}) = 0
+00:14:55.778862 statx(AT_FDCWD, "/home/package.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7d75f57f9b90) = -1 ENOENT (No such file or directory)
+00:14:55.782533 openat(AT_FDCWD, "/home/auditor/.npmrc", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:14:55.787173 mkdir("/home/auditor/.npm/_logs", 0777) = -1 EEXIST (File exists)
+00:14:55.821591 openat(AT_FDCWD, "/home/auditor/.npm/_update-notifier-last-checked", O_WRONLY|O_CREAT|O_TRUNC|O_CLOEXEC, 0666) = 20
+00:14:55.838182 statx(21, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=374, ...}) = 0
+00:14:55.852137 statx(20, "", AT_STATX_SYNC_AS_STAT|AT_EMPTY_PATH, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=374, ...}) = 0
+00:14:55.862409 exit(0)                 = ?
+00:14:55.862686 +++ exited with 0 +++

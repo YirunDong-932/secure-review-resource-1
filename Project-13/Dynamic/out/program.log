@@ -1,0 +1,24 @@
+INFO:server.server:Generated new RSA-4096 keypair
+INFO:server.server:Server initialized with ID: 12ba774a-6f22-4e81-95c4-eaa67d401b27
+
+╔═══════════════════════════════════════╗
+║         SOCP Chat Server v1.3         ║
+╚═══════════════════════════════════════╝
+
+Server ID: 12ba774a-6f22-4e81-95c4-eaa67d401b27
+Binding to: localhost:8001
+Mode: Regular
+
+Press Ctrl+C to stop...
+
+INFO:websockets.server:server listening on [::1]:8001
+INFO:websockets.server:server listening on 127.0.0.1:8001
+INFO:server.server:Server listening on localhost:8001
+INFO:server.server:Attempting to connect to bootstrap server at ws://localhost:8001
+INFO:websockets.server:connection open
+INFO:server.server:New connection from ('::1', 36378, 0, 0)
+INFO:server.server:Server 12ba774a-6f22-4e81-95c4-eaa67d401b27 connected
+INFO:server.server:Attempting to connect to bootstrap server at ws://localhost:8002
+ERROR:server.server:Failed to connect to bootstrap server: Multiple exceptions: [Errno 111] Connect call failed ('::1', 8002, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 8002)
+INFO:server.server:Attempting to connect to bootstrap server at ws://localhost:8003
+ERROR:server.server:Failed to connect to bootstrap server: Multiple exceptions: [Errno 111] Connect call failed ('::1', 8003, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 8003)

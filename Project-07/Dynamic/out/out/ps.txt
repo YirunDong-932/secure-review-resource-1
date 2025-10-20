@@ -1,0 +1,5 @@
+PID   USER     COMMAND
+    1 auditor  /bin/sh
+    9 auditor  inotifywait -m -r -e create,modify,delete,attrib /tmp /home/auditor/app -o /home/auditor/out/inotify.log
+   23 auditor  inotifywait -m -r -e create,modify,delete,attrib /tmp /home/auditor/app -o /home/auditor/out/inotify.log
+   43 auditor  busybox ps auxw

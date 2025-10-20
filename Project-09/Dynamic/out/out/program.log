@@ -1,0 +1,8 @@
+.......                                                                  [100%]
+=============================== warnings summary ===============================
+../../../usr/local/lib/python3.11/site-packages/_pytest/cacheprovider.py:475
+  /usr/local/lib/python3.11/site-packages/_pytest/cacheprovider.py:475: PytestCacheWarning: could not create cache path /home/auditor/app/.pytest_cache/v/cache/nodeids: [Errno 13] Permission denied: '/home/auditor/app/pytest-cache-files-jopt1_5v'
+    config.cache.set("cache/nodeids", sorted(self.cached_nodeids))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+7 passed, 1 warning in 8.05s

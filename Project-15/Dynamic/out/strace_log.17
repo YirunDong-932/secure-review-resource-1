@@ -1,0 +1,31 @@
+05:11:28.864938 execve("/usr/bin/sh", ["sh", "-lc", "python3 \"run.py\""], 0x7ffd6ba86a20 /* 11 vars */) = 0
+05:11:28.866478 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+05:11:28.866646 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+05:11:28.866862 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=6423, ...}, AT_EMPTY_PATH) = 0
+05:11:28.867180 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+05:11:28.867511 newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=1926232, ...}, AT_EMPTY_PATH) = 0
+05:11:28.870164 newfstatat(AT_FDCWD, "/home/auditor/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+05:11:28.870284 newfstatat(AT_FDCWD, ".", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+05:11:28.871302 openat(AT_FDCWD, "/etc/profile", O_RDONLY) = 3
+05:11:28.872491 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x72c4c6a03a10) = 18
+05:11:28.892420 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 18
+05:11:28.892812 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=18, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+05:11:28.892966 wait4(-1, 0x7ffc7ce0e33c, WNOHANG, NULL) = -1 ECHILD (No child processes)
+05:11:28.893187 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x72c4c6a03a10) = 19
+05:11:28.914062 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 19
+05:11:28.914900 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=19, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+05:11:28.915068 wait4(-1, 0x7ffc7ce0e29c, WNOHANG, NULL) = -1 ECHILD (No child processes)
+05:11:28.915182 newfstatat(AT_FDCWD, "/etc/profile.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+05:11:28.915422 openat(AT_FDCWD, "/etc/profile.d/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+05:11:28.915543 newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+05:11:28.916857 openat(AT_FDCWD, "/etc/profile.d/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+05:11:28.916993 newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+05:11:28.917393 faccessat2(AT_FDCWD, "/etc/profile.d/*.sh", R_OK, AT_EACCESS) = -1 ENOENT (No such file or directory)
+05:11:28.917705 openat(AT_FDCWD, "/home/auditor/.profile", O_RDONLY) = 3
+05:11:28.918593 newfstatat(AT_FDCWD, "/home/auditor/bin", 0x7ffc7ce0e3b0, 0) = -1 ENOENT (No such file or directory)
+05:11:28.918872 newfstatat(AT_FDCWD, "/home/auditor/.local/bin", 0x7ffc7ce0e3b0, 0) = -1 ENOENT (No such file or directory)
+05:11:28.919255 newfstatat(AT_FDCWD, "/usr/local/bin/python3", {st_mode=S_IFREG|0755, st_size=14480, ...}, 0) = 0
+05:11:28.919612 vfork()                 = 20
+05:11:28.920777 wait4(-1, 0x7ffc7ce0e52c, 0, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+05:12:28.750748 --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=12, si_uid=1000} ---
+05:12:28.751204 +++ killed by SIGTERM +++

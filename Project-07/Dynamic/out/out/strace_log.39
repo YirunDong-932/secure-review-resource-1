@@ -1,0 +1,9 @@
+00:14:55.767623 openat(AT_FDCWD, "/usr/share/nodejs/npm/npmrc", O_RDONLY|O_CLOEXEC) = 19
+00:14:55.775576 statx(AT_FDCWD, "/home/auditor/app/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7d75f5ffab90) = -1 ENOENT (No such file or directory)
+00:14:55.778227 statx(AT_FDCWD, "/home/node_modules", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7d75f5ffab90) = -1 ENOENT (No such file or directory)
+00:14:55.781645 openat(AT_FDCWD, "/home/auditor/app/.npmrc", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+00:14:55.786294 statx(AT_FDCWD, "/home/auditor/.npm", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFDIR|0755, stx_size=4096, ...}) = 0
+00:14:55.806813 statx(AT_FDCWD, "/home/auditor/app/package.json", AT_STATX_SYNC_AS_STAT, STATX_ALL, {stx_mask=STATX_ALL|STATX_MNT_ID, stx_attributes=0, stx_mode=S_IFREG|0755, stx_size=374, ...}) = 0
+00:14:55.841523 statx(AT_FDCWD, "/home/auditor/app/server.js", AT_STATX_SYNC_AS_STAT, STATX_ALL, 0x7d75f5ffab90) = -1 ENOENT (No such file or directory)
+00:14:55.862764 exit(0)                 = ?
+00:14:55.862942 +++ exited with 0 +++

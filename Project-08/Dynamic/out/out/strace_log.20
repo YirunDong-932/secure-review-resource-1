@@ -1,0 +1,7 @@
+03:29:25.006529 execve("/sbin/ldconfig", ["/sbin/ldconfig", "-p"], 0x7d16298b3eb0 /* 2 vars */) = 0
+03:29:25.014251 readlink("/proc/self/exe", "/usr/sbin/ldconfig", 4096) = 18
+03:29:25.015428 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY) = 3
+03:29:25.015558 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=6423, ...}, AT_EMPTY_PATH) = 0
+03:29:25.015836 newfstatat(1, "", {st_mode=S_IFIFO|0600, st_size=0, ...}, AT_EMPTY_PATH) = 0
+03:29:25.016373 exit_group(0)           = ?
+03:29:25.016577 +++ exited with 0 +++

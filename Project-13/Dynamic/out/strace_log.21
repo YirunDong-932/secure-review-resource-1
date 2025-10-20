@@ -1,0 +1,33 @@
+04:00:24.788482 getcwd("/home/auditor/app", 4096) = 18
+04:00:24.788638 newfstatat(AT_FDCWD, "/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+04:00:24.788847 newfstatat(AT_FDCWD, "/home/auditor", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+04:00:24.789020 newfstatat(AT_FDCWD, "/home/auditor/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+04:00:24.789163 newfstatat(AT_FDCWD, "/home/auditor/app/socp_server.db", {st_mode=S_IFREG|0755, st_size=28672, ...}, AT_SYMLINK_NOFOLLOW) = 0
+04:00:24.789487 openat(AT_FDCWD, "/home/auditor/app/socp_server.db", O_RDWR|O_CREAT|O_NOFOLLOW|O_CLOEXEC, 0644) = 6
+04:00:24.792165 newfstatat(6, "", {st_mode=S_IFREG|0755, st_size=28672, ...}, AT_EMPTY_PATH) = 0
+04:00:24.792345 newfstatat(6, "", {st_mode=S_IFREG|0755, st_size=28672, ...}, AT_EMPTY_PATH) = 0
+04:00:24.792512 newfstatat(AT_FDCWD, "/home/auditor/app/socp_server.db", {st_mode=S_IFREG|0755, st_size=28672, ...}, 0) = 0
+04:00:24.792982 sendto(5, "\0", 1, 0, NULL, 0) = 1
+04:00:24.794777 newfstatat(AT_FDCWD, "/home/auditor/app/socp_server.db-journal", 0x79d1114b6240, 0) = -1 ENOENT (No such file or directory)
+04:00:24.794915 newfstatat(AT_FDCWD, "/home/auditor/app/socp_server.db-wal", 0x79d1114b6240, 0) = -1 ENOENT (No such file or directory)
+04:00:24.795041 newfstatat(6, "", {st_mode=S_IFREG|0755, st_size=28672, ...}, AT_EMPTY_PATH) = 0
+04:00:24.795849 newfstatat(AT_FDCWD, "/home/auditor/app/socp_server.db-journal", 0x79d1114b67b0, 0) = -1 ENOENT (No such file or directory)
+04:00:24.796103 newfstatat(AT_FDCWD, "/home/auditor/app/socp_server.db-wal", 0x79d1114b67b0, 0) = -1 ENOENT (No such file or directory)
+04:00:24.796268 newfstatat(6, "", {st_mode=S_IFREG|0755, st_size=28672, ...}, AT_EMPTY_PATH) = 0
+04:00:24.796569 sendto(5, "\0", 1, 0, NULL, 0) = 1
+04:00:24.798140 newfstatat(AT_FDCWD, "/home/auditor/app/socp_server.db-journal", 0x79d1114b67b0, 0) = -1 ENOENT (No such file or directory)
+04:00:24.798356 newfstatat(AT_FDCWD, "/home/auditor/app/socp_server.db-wal", 0x79d1114b67b0, 0) = -1 ENOENT (No such file or directory)
+04:00:24.798475 newfstatat(6, "", {st_mode=S_IFREG|0755, st_size=28672, ...}, AT_EMPTY_PATH) = 0
+04:00:24.798707 sendto(5, "\0", 1, 0, NULL, 0) = 1
+04:00:24.800272 newfstatat(AT_FDCWD, "/home/auditor/app/socp_server.db-journal", 0x79d1114b67b0, 0) = -1 ENOENT (No such file or directory)
+04:00:24.800485 newfstatat(AT_FDCWD, "/home/auditor/app/socp_server.db-wal", 0x79d1114b67b0, 0) = -1 ENOENT (No such file or directory)
+04:00:24.800604 newfstatat(6, "", {st_mode=S_IFREG|0755, st_size=28672, ...}, AT_EMPTY_PATH) = 0
+04:00:24.800854 sendto(5, "\0", 1, 0, NULL, 0) = 1
+04:00:24.802140 sendto(5, "\0", 1, 0, NULL, 0) = 1
+04:00:24.803448 newfstatat(AT_FDCWD, "/home/auditor/app/socp_server.db-journal", 0x79d1114b67b0, 0) = -1 ENOENT (No such file or directory)
+04:00:24.803658 newfstatat(AT_FDCWD, "/home/auditor/app/socp_server.db-wal", 0x79d1114b67b0, 0) = -1 ENOENT (No such file or directory)
+04:00:24.803776 newfstatat(6, "", {st_mode=S_IFREG|0755, st_size=28672, ...}, AT_EMPTY_PATH) = 0
+04:00:24.804000 sendto(5, "\0", 1, 0, NULL, 0) = 1
+04:00:24.805106 sendto(5, "\0", 1, 0, NULL, 0) = 1
+04:01:23.259899 --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=12, si_uid=1000} ---
+04:01:23.260159 +++ killed by SIGTERM +++

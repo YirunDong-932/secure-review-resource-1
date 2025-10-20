@@ -1,0 +1,34 @@
+04:53:23.251208 execve("/usr/bin/sh", ["sh", "-lc", "python3 \"./server.py\" 2>&1 | tee /home/auditor/out/program.log"], 0x7ffe74f6bcc0 /* 9 vars */) = 0
+04:53:23.252353 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+04:53:23.252542 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+04:53:23.252689 newfstatat(3, "", {st_mode=S_IFREG|0644, st_size=6423, ...}, AT_EMPTY_PATH) = 0
+04:53:23.253002 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+04:53:23.253304 newfstatat(3, "", {st_mode=S_IFREG|0755, st_size=1926232, ...}, AT_EMPTY_PATH) = 0
+04:53:23.256178 newfstatat(AT_FDCWD, "/home/auditor/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:53:23.256370 newfstatat(AT_FDCWD, ".", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:53:23.257371 openat(AT_FDCWD, "/etc/profile", O_RDONLY) = 3
+04:53:23.258129 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ca56bdd0a10) = 19
+04:53:23.275624 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 19
+04:53:23.275999 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=19, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+04:53:23.276216 wait4(-1, 0x7fff93a0c94c, WNOHANG, NULL) = -1 ECHILD (No child processes)
+04:53:23.276431 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ca56bdd0a10) = 20
+04:53:23.294607 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 20
+04:53:23.294962 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=20, si_uid=1000, si_status=0, si_utime=0, si_stime=1 /* 0.01 s */} ---
+04:53:23.295114 wait4(-1, 0x7fff93a0c8ac, WNOHANG, NULL) = -1 ECHILD (No child processes)
+04:53:23.295244 newfstatat(AT_FDCWD, "/etc/profile.d", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:53:23.295382 openat(AT_FDCWD, "/etc/profile.d/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+04:53:23.295494 newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+04:53:23.295947 openat(AT_FDCWD, "/etc/profile.d/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+04:53:23.296058 newfstatat(3, "", {st_mode=S_IFDIR|0755, st_size=4096, ...}, AT_EMPTY_PATH) = 0
+04:53:23.296435 faccessat2(AT_FDCWD, "/etc/profile.d/*.sh", R_OK, AT_EACCESS) = -1 ENOENT (No such file or directory)
+04:53:23.296759 openat(AT_FDCWD, "/home/auditor/.profile", O_RDONLY) = 3
+04:53:23.297372 newfstatat(AT_FDCWD, "/home/auditor/bin", 0x7fff93a0c9c0, 0) = -1 ENOENT (No such file or directory)
+04:53:23.297597 newfstatat(AT_FDCWD, "/home/auditor/.local/bin", 0x7fff93a0c9c0, 0) = -1 ENOENT (No such file or directory)
+04:53:23.297888 newfstatat(AT_FDCWD, "/usr/local/bin/python3", {st_mode=S_IFREG|0755, st_size=14480, ...}, 0) = 0
+04:53:23.298242 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ca56bdd0a10) = 21
+04:53:23.298694 newfstatat(AT_FDCWD, "/usr/local/bin/tee", 0x7fff93a0cc20, 0) = -1 ENOENT (No such file or directory)
+04:53:23.298779 newfstatat(AT_FDCWD, "/usr/bin/tee", {st_mode=S_IFREG|0755, st_size=43984, ...}, 0) = 0
+04:53:23.298863 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ca56bdd0a10) = 22
+04:53:23.299505 wait4(-1, 0x7fff93a0cbac, 0, NULL) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+04:54:23.134266 --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=14, si_uid=1000} ---
+04:54:23.134639 +++ killed by SIGTERM +++

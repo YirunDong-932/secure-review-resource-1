@@ -1,0 +1,109 @@
+04:00:24.813249 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/encodings", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:00:24.813421 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/encodings/idna.py", {st_mode=S_IFREG|0644, st_size=9098, ...}, 0) = 0
+04:00:24.813589 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/encodings/idna.py", {st_mode=S_IFREG|0644, st_size=9098, ...}, 0) = 0
+04:00:24.813730 openat(AT_FDCWD, "/usr/local/lib/python3.11/encodings/__pycache__/idna.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 7
+04:00:24.813923 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=11549, ...}, AT_EMPTY_PATH) = 0
+04:00:24.814366 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=11549, ...}, AT_EMPTY_PATH) = 0
+04:00:24.815006 newfstatat(AT_FDCWD, "/home/auditor/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:00:24.815164 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:00:24.815357 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/stringprep.py", {st_mode=S_IFREG|0644, st_size=12917, ...}, 0) = 0
+04:00:24.815526 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/stringprep.py", {st_mode=S_IFREG|0644, st_size=12917, ...}, 0) = 0
+04:00:24.815680 openat(AT_FDCWD, "/usr/local/lib/python3.11/__pycache__/stringprep.cpython-311.pyc", O_RDONLY|O_CLOEXEC) = 7
+04:00:24.815844 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=26533, ...}, AT_EMPTY_PATH) = 0
+04:00:24.816228 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=26533, ...}, AT_EMPTY_PATH) = 0
+04:00:24.816781 newfstatat(AT_FDCWD, "/home/auditor/app", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:00:24.816915 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:00:24.817058 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/lib-dynload", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:00:24.817370 newfstatat(AT_FDCWD, "/usr/local/lib/python3.11/lib-dynload/unicodedata.cpython-311-x86_64-linux-gnu.so", {st_mode=S_IFREG|0755, st_size=1131672, ...}, 0) = 0
+04:00:24.817549 openat(AT_FDCWD, "/usr/local/lib/python3.11/lib-dynload/unicodedata.cpython-311-x86_64-linux-gnu.so", O_RDONLY|O_CLOEXEC) = 7
+04:00:24.817802 newfstatat(7, "", {st_mode=S_IFREG|0755, st_size=1131672, ...}, AT_EMPTY_PATH) = 0
+04:00:24.819850 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 7
+04:00:24.819977 connect(7, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+04:00:24.820367 socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 7
+04:00:24.820488 connect(7, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+04:00:24.820708 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=494, ...}, 0) = 0
+04:00:24.820846 newfstatat(AT_FDCWD, "/", {st_mode=S_IFDIR|0755, st_size=4096, ...}, 0) = 0
+04:00:24.820964 openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 7
+04:00:24.821129 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=494, ...}, AT_EMPTY_PATH) = 0
+04:00:24.821438 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=494, ...}, AT_EMPTY_PATH) = 0
+04:00:24.821646 newfstatat(AT_FDCWD, "/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=222, ...}, 0) = 0
+04:00:24.821807 openat(AT_FDCWD, "/etc/host.conf", O_RDONLY|O_CLOEXEC) = 7
+04:00:24.821937 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=9, ...}, AT_EMPTY_PATH) = 0
+04:00:24.822455 openat(AT_FDCWD, "/etc/resolv.conf", O_RDONLY|O_CLOEXEC) = 7
+04:00:24.822578 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=222, ...}, AT_EMPTY_PATH) = 0
+04:00:24.822968 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=222, ...}, AT_EMPTY_PATH) = 0
+04:00:24.823182 openat(AT_FDCWD, "/etc/hosts", O_RDONLY|O_CLOEXEC) = 7
+04:00:24.823299 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=148, ...}, AT_EMPTY_PATH) = 0
+04:00:24.823776 openat(AT_FDCWD, "/etc/gai.conf", O_RDONLY|O_CLOEXEC) = 7
+04:00:24.824201 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=2584, ...}, AT_EMPTY_PATH) = 0
+04:00:24.824393 newfstatat(7, "", {st_mode=S_IFREG|0644, st_size=2584, ...}, AT_EMPTY_PATH) = 0
+04:00:24.824913 socket(AF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, NETLINK_ROUTE) = 7
+04:00:24.825043 bind(7, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 0
+04:00:24.825167 getsockname(7, {sa_family=AF_NETLINK, nl_pid=20, nl_groups=00000000}, [12]) = 0
+04:00:24.825285 sendto(7, [{nlmsg_len=20, nlmsg_type=RTM_GETADDR, nlmsg_flags=NLM_F_REQUEST|NLM_F_DUMP, nlmsg_seq=1760414424, nlmsg_pid=0}, {ifa_family=AF_UNSPEC, ...}], 20, 0, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 20
+04:00:24.825499 recvmsg(7, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{nlmsg_len=76, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1760414424, nlmsg_pid=20}, {ifa_family=AF_INET, ifa_prefixlen=8, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_HOST, ifa_index=if_nametoindex("lo")}, [[{nla_len=8, nla_type=IFA_ADDRESS}, inet_addr("127.0.0.1")], [{nla_len=8, nla_type=IFA_LOCAL}, inet_addr("127.0.0.1")], [{nla_len=7, nla_type=IFA_LABEL}, "lo"], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=10359157, tstamp=10359157}]]], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 76
+04:00:24.825799 recvmsg(7, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{nlmsg_len=80, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1760414424, nlmsg_pid=20}, {ifa_family=AF_INET6, ifa_prefixlen=128, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_HOST, ifa_index=if_nametoindex("lo")}, [[{nla_len=20, nla_type=IFA_ADDRESS}, inet_pton(AF_INET6, "::1")], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=10359157, tstamp=10359157}], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT], [{nla_len=5, nla_type=IFA_PROTO}, "\x01"]]], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 80
+04:00:24.825996 recvmsg(7, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{nlmsg_len=20, nlmsg_type=NLMSG_DONE, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1760414424, nlmsg_pid=20}, 0], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 20
+04:00:24.826224 socket(AF_INET, SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_IP) = 7
+04:00:24.826402 connect(7, {sa_family=AF_INET, sin_port=htons(8001), sin_addr=inet_addr("127.0.0.1")}, 16) = 0
+04:00:24.826526 getsockname(7, {sa_family=AF_INET, sin_port=htons(51398), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 0
+04:00:24.826735 socket(AF_INET6, SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_IP) = 7
+04:00:24.826891 connect(7, {sa_family=AF_INET6, sin6_port=htons(8001), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_scope_id=0}, 28) = 0
+04:00:24.827056 getsockname(7, {sa_family=AF_INET6, sin6_port=htons(49605), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_scope_id=0}, [28]) = 0
+04:00:24.827299 sendto(5, "\0", 1, 0, NULL, 0) = 1
+04:00:26.825297 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=494, ...}, 0) = 0
+04:00:26.825482 newfstatat(AT_FDCWD, "/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=222, ...}, 0) = 0
+04:00:26.825626 openat(AT_FDCWD, "/etc/hosts", O_RDONLY|O_CLOEXEC) = 9
+04:00:26.825801 newfstatat(9, "", {st_mode=S_IFREG|0644, st_size=148, ...}, AT_EMPTY_PATH) = 0
+04:00:26.826429 socket(AF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, NETLINK_ROUTE) = 9
+04:00:26.826648 bind(9, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 0
+04:00:26.826845 getsockname(9, {sa_family=AF_NETLINK, nl_pid=20, nl_groups=00000000}, [12]) = 0
+04:00:26.827028 sendto(9, [{nlmsg_len=20, nlmsg_type=RTM_GETADDR, nlmsg_flags=NLM_F_REQUEST|NLM_F_DUMP, nlmsg_seq=1760414426, nlmsg_pid=0}, {ifa_family=AF_UNSPEC, ...}], 20, 0, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 20
+04:00:26.827351 recvmsg(9, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{nlmsg_len=76, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1760414426, nlmsg_pid=20}, {ifa_family=AF_INET, ifa_prefixlen=8, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_HOST, ifa_index=if_nametoindex("lo")}, [[{nla_len=8, nla_type=IFA_ADDRESS}, inet_addr("127.0.0.1")], [{nla_len=8, nla_type=IFA_LOCAL}, inet_addr("127.0.0.1")], [{nla_len=7, nla_type=IFA_LABEL}, "lo"], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=10359157, tstamp=10359157}]]], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 76
+04:00:26.827533 recvmsg(9, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{nlmsg_len=80, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1760414426, nlmsg_pid=20}, {ifa_family=AF_INET6, ifa_prefixlen=128, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_HOST, ifa_index=if_nametoindex("lo")}, [[{nla_len=20, nla_type=IFA_ADDRESS}, inet_pton(AF_INET6, "::1")], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=10359157, tstamp=10359157}], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT], [{nla_len=5, nla_type=IFA_PROTO}, "\x01"]]], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 80
+04:00:26.827707 recvmsg(9, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{nlmsg_len=20, nlmsg_type=NLMSG_DONE, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1760414426, nlmsg_pid=20}, 0], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 20
+04:00:26.827961 socket(AF_INET, SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_IP) = 9
+04:00:26.828107 connect(9, {sa_family=AF_INET, sin_port=htons(8001), sin_addr=inet_addr("127.0.0.1")}, 16) = 0
+04:00:26.828253 getsockname(9, {sa_family=AF_INET, sin_port=htons(46058), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 0
+04:00:26.828508 socket(AF_INET6, SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_IP) = 9
+04:00:26.828630 connect(9, {sa_family=AF_INET6, sin6_port=htons(8001), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_scope_id=0}, 28) = 0
+04:00:26.828801 getsockname(9, {sa_family=AF_INET6, sin6_port=htons(56847), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_scope_id=0}, [28]) = 0
+04:00:26.829116 sendto(5, "\0", 1, 0, NULL, 0) = 1
+04:00:26.844905 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=494, ...}, 0) = 0
+04:00:26.845081 newfstatat(AT_FDCWD, "/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=222, ...}, 0) = 0
+04:00:26.845223 openat(AT_FDCWD, "/etc/hosts", O_RDONLY|O_CLOEXEC) = 11
+04:00:26.845356 newfstatat(11, "", {st_mode=S_IFREG|0644, st_size=148, ...}, AT_EMPTY_PATH) = 0
+04:00:26.845896 socket(AF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, NETLINK_ROUTE) = 11
+04:00:26.846092 bind(11, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 0
+04:00:26.846214 getsockname(11, {sa_family=AF_NETLINK, nl_pid=20, nl_groups=00000000}, [12]) = 0
+04:00:26.846369 sendto(11, [{nlmsg_len=20, nlmsg_type=RTM_GETADDR, nlmsg_flags=NLM_F_REQUEST|NLM_F_DUMP, nlmsg_seq=1760414426, nlmsg_pid=0}, {ifa_family=AF_UNSPEC, ...}], 20, 0, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 20
+04:00:26.846643 recvmsg(11, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{nlmsg_len=76, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1760414426, nlmsg_pid=20}, {ifa_family=AF_INET, ifa_prefixlen=8, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_HOST, ifa_index=if_nametoindex("lo")}, [[{nla_len=8, nla_type=IFA_ADDRESS}, inet_addr("127.0.0.1")], [{nla_len=8, nla_type=IFA_LOCAL}, inet_addr("127.0.0.1")], [{nla_len=7, nla_type=IFA_LABEL}, "lo"], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=10359157, tstamp=10359157}]]], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 76
+04:00:26.846987 recvmsg(11, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{nlmsg_len=80, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1760414426, nlmsg_pid=20}, {ifa_family=AF_INET6, ifa_prefixlen=128, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_HOST, ifa_index=if_nametoindex("lo")}, [[{nla_len=20, nla_type=IFA_ADDRESS}, inet_pton(AF_INET6, "::1")], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=10359157, tstamp=10359157}], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT], [{nla_len=5, nla_type=IFA_PROTO}, "\x01"]]], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 80
+04:00:26.847342 recvmsg(11, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{nlmsg_len=20, nlmsg_type=NLMSG_DONE, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1760414426, nlmsg_pid=20}, 0], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 20
+04:00:26.847669 socket(AF_INET, SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_IP) = 11
+04:00:26.847830 connect(11, {sa_family=AF_INET, sin_port=htons(8002), sin_addr=inet_addr("127.0.0.1")}, 16) = 0
+04:00:26.847964 getsockname(11, {sa_family=AF_INET, sin_port=htons(42868), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 0
+04:00:26.848261 socket(AF_INET6, SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_IP) = 11
+04:00:26.848395 connect(11, {sa_family=AF_INET6, sin6_port=htons(8002), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_scope_id=0}, 28) = 0
+04:00:26.848535 getsockname(11, {sa_family=AF_INET6, sin6_port=htons(34637), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_scope_id=0}, [28]) = 0
+04:00:26.849056 sendto(5, "\0", 1, 0, NULL, 0) = 1
+04:00:26.855333 newfstatat(AT_FDCWD, "/etc/nsswitch.conf", {st_mode=S_IFREG|0644, st_size=494, ...}, 0) = 0
+04:00:26.855600 newfstatat(AT_FDCWD, "/etc/resolv.conf", {st_mode=S_IFREG|0644, st_size=222, ...}, 0) = 0
+04:00:26.855832 openat(AT_FDCWD, "/etc/hosts", O_RDONLY|O_CLOEXEC) = 11
+04:00:26.856021 newfstatat(11, "", {st_mode=S_IFREG|0644, st_size=148, ...}, AT_EMPTY_PATH) = 0
+04:00:26.856819 socket(AF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, NETLINK_ROUTE) = 11
+04:00:26.857052 bind(11, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 0
+04:00:26.857216 getsockname(11, {sa_family=AF_NETLINK, nl_pid=20, nl_groups=00000000}, [12]) = 0
+04:00:26.857373 sendto(11, [{nlmsg_len=20, nlmsg_type=RTM_GETADDR, nlmsg_flags=NLM_F_REQUEST|NLM_F_DUMP, nlmsg_seq=1760414426, nlmsg_pid=0}, {ifa_family=AF_UNSPEC, ...}], 20, 0, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 20
+04:00:26.857665 recvmsg(11, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{nlmsg_len=76, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1760414426, nlmsg_pid=20}, {ifa_family=AF_INET, ifa_prefixlen=8, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_HOST, ifa_index=if_nametoindex("lo")}, [[{nla_len=8, nla_type=IFA_ADDRESS}, inet_addr("127.0.0.1")], [{nla_len=8, nla_type=IFA_LOCAL}, inet_addr("127.0.0.1")], [{nla_len=7, nla_type=IFA_LABEL}, "lo"], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=10359157, tstamp=10359157}]]], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 76
+04:00:26.857862 recvmsg(11, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{nlmsg_len=80, nlmsg_type=RTM_NEWADDR, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1760414426, nlmsg_pid=20}, {ifa_family=AF_INET6, ifa_prefixlen=128, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_HOST, ifa_index=if_nametoindex("lo")}, [[{nla_len=20, nla_type=IFA_ADDRESS}, inet_pton(AF_INET6, "::1")], [{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=10359157, tstamp=10359157}], [{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT], [{nla_len=5, nla_type=IFA_PROTO}, "\x01"]]], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 80
+04:00:26.858068 recvmsg(11, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{nlmsg_len=20, nlmsg_type=NLMSG_DONE, nlmsg_flags=NLM_F_MULTI, nlmsg_seq=1760414426, nlmsg_pid=20}, 0], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 20
+04:00:26.858362 socket(AF_INET, SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_IP) = 11
+04:00:26.858549 connect(11, {sa_family=AF_INET, sin_port=htons(8003), sin_addr=inet_addr("127.0.0.1")}, 16) = 0
+04:00:26.858676 getsockname(11, {sa_family=AF_INET, sin_port=htons(38314), sin_addr=inet_addr("127.0.0.1")}, [28 => 16]) = 0
+04:00:26.859051 socket(AF_INET6, SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_IP) = 11
+04:00:26.859172 connect(11, {sa_family=AF_INET6, sin6_port=htons(8003), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_scope_id=0}, 28) = 0
+04:00:26.859297 getsockname(11, {sa_family=AF_INET6, sin6_port=htons(40139), sin6_flowinfo=htonl(0), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_scope_id=0}, [28]) = 0
+04:00:26.859538 sendto(5, "\0", 1, 0, NULL, 0) = 1
+04:01:23.259967 ???( <unfinished ...>
+04:01:23.260285 +++ killed by SIGTERM +++
